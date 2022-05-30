@@ -1,0 +1,60 @@
+import { TwitterSVG,DiscordSVG,InstagramSVG,OpenseaSVG } from "components/SVG";
+import React from "react";
+import { Link } from "react-router-dom";
+import {
+    FooterOut, FooterPart, FooterTop, FooterLogoImg, FooterNav, FooterItem, SocialIconDiscordImg,SocialIconInstaImg,SocialIconOpenseaImg,SocialIconTwitterImg, SocialItems, FooterBottom, FBLeft, FBRight, FBItem, SocialIcon,
+} from "./footer.style";
+const FooterContainer = () => {
+    return (
+        <FooterOut>
+            <FooterPart>
+                <FooterTop>
+                    <FooterLogoImg src='img/footerlogo.svg' alt='' />
+                    <FooterNav>
+                    <a href='#story'>
+                        <FooterItem>OuR STORY</FooterItem>
+                    </a>
+                    <a href='#benefit'>
+                        <FooterItem>BeNeFITS</FooterItem>
+                    </a>
+                    <a href='#roadmap'>
+                        <FooterItem>ROADMAP</FooterItem>
+                    </a>
+                    <a href='#team'>
+                        <FooterItem>TeAM</FooterItem>
+                    </a>
+                    <a href='#faq'>
+                        <FooterItem>FAQ</FooterItem>
+                    </a>
+                    </FooterNav>
+                    
+                    <SocialItems>
+                    <a href='https://twitter.com/savebunniesnft' target={'_blank'}>
+                        <SocialIcon><TwitterSVG fill="white" /></SocialIcon>
+                    </a>
+                    <a href='https://www.instagram.com/savebunniesnft' target={'_blank'}>
+                        <SocialIcon><InstagramSVG fill="white" /></SocialIcon>
+                    </a>
+                    <a href='https://discord.gg/Ab433VcrVU' target={'_blank'}>
+                        <SocialIcon><DiscordSVG fill="white" /></SocialIcon>
+                    </a>
+                    <a href="https://opensea.io/collection/save-the-bunnies-1" target={'_blank'}>
+                        <SocialIcon><OpenseaSVG fill="white" /></SocialIcon>
+                    </a>
+                    </SocialItems>
+                </FooterTop>
+                <FooterBottom>
+                    <FBLeft>© 2022 Save the Bunnies. All rights reserved.</FBLeft>
+                    <FBRight>
+                        <Link to='/privacy'>
+                            <FBItem>Privacy</FBItem>
+                        </Link>
+                        <FBItem>Terms</FBItem>
+                        {/* <FBItem>Do Not Sell My Info</FBItem> */}
+                    </FBRight>
+                </FooterBottom>
+            </FooterPart>
+        </FooterOut>
+    );
+};
+export default FooterContainer;
