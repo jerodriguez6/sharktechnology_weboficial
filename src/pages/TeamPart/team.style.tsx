@@ -20,7 +20,7 @@ export const TeamTitle = styled.div`
   font-size: 78px;
   line-height: 60px;
   letter-spacing: -0.02em;
-  color: #2e1e00;
+  color: #0d0ae5;
   z-index: 2;
   position: relative;
   ::after {
@@ -53,7 +53,7 @@ export const TeamItemName = styled.div`
   margin: 28px 0 12px 0;
   font-size: 38px;
   line-height: 42px;
-  color: #2e1e00;
+  color: #000;
 `;
 export const TeamItemText = styled.div`
   font-family: "Inter";
@@ -62,5 +62,5 @@ export const TeamItemText = styled.div`
   font-size: 16px;
   line-height: 26px;
   width: 294px;
-  color: #625744;
+  color: #000;
 `;

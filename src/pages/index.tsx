@@ -58,7 +58,7 @@ const MainPage: React.FC = () => {
         />
         <GrassImg
           className={className}
-          src="img/greengrass.png"
+          src="img/cadena.jpg"
           alt=""
           id="grass"
         />

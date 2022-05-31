@@ -9,7 +9,7 @@ export const BunniPart = styled.div`
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: url('img/topback.png');
+    background color: url('img/topback.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

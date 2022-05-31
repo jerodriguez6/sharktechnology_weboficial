@@ -19,7 +19,7 @@ export const RoadmapTitle = styled.div`
   font-size: 78px;
   line-height: 60px;
   letter-spacing: -0.02em;
-  color: #2e1e00;
+  color: #0d0ae5;
   z-index: 2;
   position: relative;
   ::after {
@@ -98,7 +98,7 @@ export const RoadRightText = styled.div`
   margin-top: 12px;
   font-size: 18px;
   line-height: 28px;
-  color: #625744;
+  color: #000;
 `;
 export const RoadRightTitle = styled.div`
   font-family: "Luckiest Guy";

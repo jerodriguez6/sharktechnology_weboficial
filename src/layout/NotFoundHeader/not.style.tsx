@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HeaderOut = styled.div `
     width: 100vw;
     display: flex;
-    background-color: #fff;
+    background-color: #000;
     z-index: 200;
     justify-content: center;
 `;
@@ -48,7 +48,7 @@ export const NavItem = styled.div `
     line-height: 24px;
     transition: all .3s ease-in-out;
     cursor: pointer;
-    color: #4E7B18;
+    color: #000;
     :hover{
         color:rgb(137,187,77);
     }

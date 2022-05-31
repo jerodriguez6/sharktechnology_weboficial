@@ -45,13 +45,13 @@ const HeaderContainer = () => {
         </Link>
         <NavMenu>
           <a href="#story">
-            <NavItem>OuR STORY</NavItem>
+            <NavItem>ABOUT</NavItem>
           </a>
           <a href="#benefit">
-            <NavItem>BeNeFITS</NavItem>
+            <NavItem>BeNeFIT</NavItem>
           </a>
           <a href="#roadmap">
-            <NavItem>ROADMAP</NavItem>
+            <NavItem>SERVICES</NavItem>
           </a>
           <a href="#team">
             <NavItem>TeAM</NavItem>

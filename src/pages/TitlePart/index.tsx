@@ -14,6 +14,8 @@ import {
   SaveBunniBtnLeft,
 } from "./titlepart.style";
 import { useMediaQuery } from "beautiful-react-hooks";
+
+
 const TitleContainer = () => {
   const isTabletMode = useMediaQuery("(max-width: 1140px)");
   const [data, setData] = useState<any>({
@@ -51,10 +53,10 @@ const TitleContainer = () => {
         <TLeft>
           <SaveBunniText>
             <span>
-              {data.bunnyTitle.substr(0, 4)}
+            SHARK 
               {isTabletMode}
             </span>
-            {data.bunnyTitle.substr(4, data.bunnyTitle.length)}
+            TECHNOLOGY
           </SaveBunniText>
           <SaveBunniSub>{data.bunnySubTitle}</SaveBunniSub>
           <SaveBunniBtns>
@@ -71,7 +73,7 @@ const TitleContainer = () => {
           </SaveBunniBtns>
         </TLeft>
         <RightOut>
-          <TRight src={data.bunnyImg.url} alt="" />
+          <TRight src="img/app.png" alt="" />
         </RightOut>
       </TitlePart>
     </TitlePartOut>

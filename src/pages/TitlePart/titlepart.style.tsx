@@ -39,7 +39,7 @@ export const SaveBunniText = styled.div`
   font-size: 110px;
   line-height: 110px;
   letter-spacing: -0.02em;
-  color: #2e1e00;
+  color: #0d0ae5;
   width: 460px;
   span {
     z-index: 2;
