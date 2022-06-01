@@ -9,16 +9,16 @@ const FooterContainer = () => {
         <FooterOut>
             <FooterPart>
                 <FooterTop>
-                    <FooterLogoImg src='img/footerlogo.svg' alt='' />
+                    <FooterLogoImg src='img/logotibu.svg' alt='' />
                     <FooterNav>
                     <a href='#story'>
-                        <FooterItem>OuR STORY</FooterItem>
+                        <FooterItem>ABOUT US</FooterItem>
                     </a>
                     <a href='#benefit'>
-                        <FooterItem>BeNeFITS</FooterItem>
+                        <FooterItem>PROJECTS</FooterItem>
                     </a>
                     <a href='#roadmap'>
-                        <FooterItem>ROADMAP</FooterItem>
+                        <FooterItem>SERVICES</FooterItem>
                     </a>
                     <a href='#team'>
                         <FooterItem>TeAM</FooterItem>
@@ -29,10 +29,10 @@ const FooterContainer = () => {
                     </FooterNav>
                     
                     <SocialItems>
-                    <a href='https://twitter.com/savebunniesnft' target={'_blank'}>
+                    <a href='https://twitter.com/SHARKTECHNOLOG2' target={'_blank'}>
                         <SocialIcon><TwitterSVG fill="white" /></SocialIcon>
                     </a>
-                    <a href='https://www.instagram.com/savebunniesnft' target={'_blank'}>
+                    <a href='https://www.instagram.com/shark_technology_dev/?hl=en' target={'_blank'}>
                         <SocialIcon><InstagramSVG fill="white" /></SocialIcon>
                     </a>
                     <a href='https://discord.gg/Ab433VcrVU' target={'_blank'}>
@@ -44,7 +44,7 @@ const FooterContainer = () => {
                     </SocialItems>
                 </FooterTop>
                 <FooterBottom>
-                    <FBLeft>© 2022 Save the Bunnies. All rights reserved.</FBLeft>
+                    <FBLeft>© 2022 SHARK TECHNOLOGY - Engineers. All rights reserved.</FBLeft>
                     <FBRight>
                         <Link to='/privacy'>
                             <FBItem>Privacy</FBItem>

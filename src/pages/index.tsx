@@ -51,18 +51,18 @@ const MainPage: React.FC = () => {
       <BunniPart>
         <MountainImg
           className={className}
-          src={isTabletMode ? "img/longmountain.png" : "img/mountain.png"}
+          src={isTabletMode ? "img/ola.png" : "img/marea.png"}
           transform={backscrollstate}
           alt=""
           id="mountain"
         />
         <GrassImg
           className={className}
-          src="img/cadena.jpg"
+          src="img/marea.png"
           alt=""
           id="grass"
         />
-        <CloudImg className={className} src="img/cloud.png" alt="" id="cloud" />
+        <CloudImg className={className} src="img/tibu.png" alt="" id="cloud" />
         <Header />
         <TitlePart />
         <TimerPart />

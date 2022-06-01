@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SaveOut = styled.div`
-    background: url('img/save.png');
+    background: url('img/stor.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
