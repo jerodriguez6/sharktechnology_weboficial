@@ -9,14 +9,14 @@ export const BunniPart = styled.div`
     display: flex;
     align-items: center;
     flex-direction: column;
-    background color: url('img/bol.png');
+    background color: url('img/topback.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
     padding-bottom: 50px;
     @media screen and (max-width:850px){
-        background: url('img/bunniback.png');
+        background: url('img/marea.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;

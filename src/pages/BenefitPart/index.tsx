@@ -37,14 +37,14 @@ const BenefitContainer = () => {
       <BenefitOut id="benefit">
         <Benefit>
           <BenefitLeft>
-            <BenefitTitle>BENEFITS</BenefitTitle>
+            <BenefitTitle>PROJECTS</BenefitTitle>
             <BenefitUL>
               {data.benefitContent.map((v: string, k: number) => (
                 <BenefitLi key={k}>{v}</BenefitLi>
               ))}
             </BenefitUL>
           </BenefitLeft>
-          <BenefitRight src="img/benefit.png" alt="" />
+          <BenefitRight src="img/eth.png" alt="" />
         </Benefit>
       </BenefitOut>
     </>

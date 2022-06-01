@@ -95,12 +95,12 @@ export const SaveBunniText = styled.div`
 export const SaveBunniSub = styled.div`
   font-family: "Inter";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 1000;
   font-size: 18px;
   margin-top: 15px;
   width: 510px;
   line-height: 28px;
-  color: #625744;
+  color: #000000;
   @media screen and (max-width: 1140px) {
     width: 100%;
     text-align: center;

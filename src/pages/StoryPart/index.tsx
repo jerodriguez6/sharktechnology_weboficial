@@ -46,20 +46,20 @@ const StoryContainer = () => {
     <>
       <StoryPartOut id="story">
         <StoryPart>
-          <OurStory>{data.storyTitle}</OurStory>
+          <OurStory>ABOUT US</OurStory>
           <MainStory>
             <StoryLeft>
-              <StoryTitle>{data.storySubtitle}</StoryTitle>
-              <StorySub>{data.storyContent}</StorySub>
+              <StoryTitle>We help startups and companies from different industries to integrate Blockchain technologies.</StoryTitle>
+              <StorySub>If your company is ready to implement innovative Blockchain technologies, our company is what you need for your digital transformation.</StorySub>
             </StoryLeft>
             <StoryRight>
               <StoryRightItem>
-                <StoryImg src="img/bear.svg" alt="" />
-                <StoryText>{data.storySection1}</StoryText>
+                <StoryImg src="img/st.png" alt="" />
+                <StoryText>Our Blockchain specialists and engineers know how to turn your project idea into reality. We are ready to build Blockchain solutions according to your needs.</StoryText>
               </StoryRightItem>
               <StoryRightItem>
-                <StoryImg src="img/greenheart.svg" alt="" />
-                <StoryText>{data.storySection2}</StoryText>
+                <StoryImg src="img/st.png" alt="" />
+                <StoryText>From the development of smart contracts, crypto assets, asset tokenization, wallets, to the creation of payment dApps and NFTs. By cooperating with SHARK TECHNOLOGY, you will get the full range of benefits from our Blockchain technology expertise.</StoryText>
               </StoryRightItem>
             </StoryRight>
           </MainStory>

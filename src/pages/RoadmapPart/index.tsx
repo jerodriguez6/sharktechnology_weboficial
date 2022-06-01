@@ -55,21 +55,21 @@ const MainPage = () => {
     <>
       <RoadMapOut id="roadmap">
         <Roadmap>
-          <RoadmapTitle>RoADMAP</RoadmapTitle>
+          <RoadmapTitle>SERVICES</RoadmapTitle>
           {/* -----------first part---------------- */}
           <RoadmapFirstPart mt="40px">
             <RoadmapFirstLeft>
               <RoadCard>
-                <RoadProImg src="img/onepro.svg" alt="" />
+                <RoadProImg src="img/tibu.png" alt="" />
                 <RoadCardRight>
-                  <RoadRightTitle>{data.roadmapTitle[0]}</RoadRightTitle>
+                  <RoadRightTitle>WALLETS</RoadRightTitle>
                   <RoadRightText>{data.roadmapContent[0]}</RoadRightText>
                 </RoadCardRight>
               </RoadCard>
               <RoadCard>
-                <RoadProImg src="img/twopro.svg" alt="" />
+                <RoadProImg src="img/tibu.png" alt="" />
                 <RoadCardRight>
-                  <RoadRightTitle>{data.roadmapTitle[1]}</RoadRightTitle>
+                  <RoadRightTitle>CRYPTOCURRENCY AND TOKEN</RoadRightTitle>
                   <RoadRightText>{data.roadmapContent[1]}</RoadRightText>
                 </RoadCardRight>
               </RoadCard>
@@ -78,7 +78,7 @@ const MainPage = () => {
               data-aos="fade-left"
               className="aos-init aos-animate"
             >
-              <RoadmapFirstRight src="img/roadfirst.png" alt="" />
+              <RoadmapFirstRight src="img/wallet.png" alt="" />
             </RoadmapFirstRightOut>
           </RoadmapFirstPart>
           {/* ------------sec part---------------------- */}
@@ -87,20 +87,20 @@ const MainPage = () => {
               data-aos="fade-right"
               className="aos-init aos-animate"
             >
-              <RoadmapSecRight src="img/secroadmap.png" alt="" />
+              <RoadmapSecRight src="img/smartc.png" alt="" />
             </RoadmapFirstRightOut>
             <RoadmapSecLeft>
               <RoadSecCard>
-                <RoadSecProImg src="img/fourpro.svg" alt="" />
+                <RoadSecProImg src="img/tibu.png" alt="" />
                 <RoadSecCardRight>
-                  <RoadSecRightTitle>{data.roadmapTitle[2]}</RoadSecRightTitle>
+                  <RoadSecRightTitle>SMART CONTRACT</RoadSecRightTitle>
                   <RoadSecRightText>{data.roadmapContent[2]}</RoadSecRightText>
                 </RoadSecCardRight>
               </RoadSecCard>
               <RoadSecCard>
-                <RoadSecProImg src="img/sixpro.svg" alt="" />
+                <RoadSecProImg src="img/tibu.png" alt="" />
                 <RoadSecCardRight>
-                  <RoadSecRightTitle>{data.roadmapTitle[3]}</RoadSecRightTitle>
+                  <RoadSecRightTitle>NFT AND MARKETPLACE</RoadSecRightTitle>
                   <RoadSecRightText>{data.roadmapContent[3]}</RoadSecRightText>
                 </RoadSecCardRight>
               </RoadSecCard>
@@ -110,16 +110,16 @@ const MainPage = () => {
           <RoadmapFirstPart mt="30px">
             <RoadmapFirstLeft>
               <RoadCard>
-                <RoadProImg src="img/eightpro.svg" alt="" />
+                <RoadProImg src="img/tibu.png" alt="" />
                 <RoadCardRight>
-                  <RoadRightTitle>{data.roadmapTitle[4]}</RoadRightTitle>
+                  <RoadRightTitle>VIDEO GAMES DEVELOPMENT</RoadRightTitle>
                   <RoadRightText>{data.roadmapContent[4]}</RoadRightText>
                 </RoadCardRight>
               </RoadCard>
               <RoadCard>
-                <RoadProImg src="img/hundredpro.svg" alt="" />
+                <RoadProImg src="img/tibu.png" alt="" />
                 <RoadCardRight>
-                  <RoadRightTitle>{data.roadmapTitle[5]}</RoadRightTitle>
+                  <RoadRightTitle>METAVERSE</RoadRightTitle>
                   <RoadRightText>{data.roadmapContent[5]}</RoadRightText>
                 </RoadCardRight>
               </RoadCard>
@@ -128,7 +128,7 @@ const MainPage = () => {
               data-aos="fade-left"
               className="aos-init aos-animate"
             >
-              <RoadmapFirstRight src="img/thirdroad.png" alt="" />
+              <RoadmapFirstRight src="img/meta.png" alt="" />
             </RoadmapFirstRightOut>
           </RoadmapFirstPart>
         </Roadmap>

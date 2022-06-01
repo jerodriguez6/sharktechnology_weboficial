@@ -30,7 +30,7 @@ export const FAQTitle = styled.div`
   font-size: 78px;
   line-height: 60px;
   letter-spacing: -0.02em;
-  color: #2e1e00;
+  color: #0d0ae5;
   z-index: 2;
   position: relative;
   ::after {

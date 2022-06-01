@@ -58,17 +58,17 @@ const TitleContainer = () => {
             </span>
             TECHNOLOGY
           </SaveBunniText>
-          <SaveBunniSub>{data.bunnySubTitle}</SaveBunniSub>
+          <SaveBunniSub>CONSULTING AND DEVELOPMENT OF BLOCKCHAIN ​​TECHNOLOGY FOR STARTUPS AND COMPANIES.</SaveBunniSub>
           <SaveBunniBtns>
             <Link to="/mint">
               <SaveBunniBtnLeft>
                 Mint Date:
                 <br />
-                <span>APRIL 17,2022</span>
+                <span>COMING SOON</span>
               </SaveBunniBtnLeft>
             </Link>
-            <a href="https://discord.gg/Ab433VcrVU" target={"_blank"}>
-              <SaveBunniBtnRight>JoIN THE CoMMUNITY</SaveBunniBtnRight>
+            <a href="https://metamask.io/" target={"_blank"}>
+              <SaveBunniBtnRight>CONNECT WALLET</SaveBunniBtnRight>
             </a>
           </SaveBunniBtns>
         </TLeft>
@@ -78,5 +78,6 @@ const TitleContainer = () => {
       </TitlePart>
     </TitlePartOut>
   );
+  
 };
 export default TitleContainer;

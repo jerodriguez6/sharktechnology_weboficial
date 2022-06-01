@@ -45,10 +45,10 @@ const HeaderContainer = () => {
         </Link>
         <NavMenu>
           <a href="#story">
-            <NavItem>ABOUT</NavItem>
+            <NavItem>ABOUT US</NavItem>
           </a>
           <a href="#benefit">
-            <NavItem>BeNeFIT</NavItem>
+            <NavItem>PROJECTS</NavItem>
           </a>
           <a href="#roadmap">
             <NavItem>SERVICES</NavItem>
@@ -61,12 +61,12 @@ const HeaderContainer = () => {
           </a>
         </NavMenu>
         <SocialItems>
-          <a href="https://twitter.com/savebunniesnft" target={"_blank"}>
+          <a href="https://twitter.com/SHARKTECHNOLOG2" target={"_blank"}>
             <SocialIcon>
               <TwitterSVG fill="#000" />
             </SocialIcon>
           </a>
-          <a href="https://www.instagram.com/savebunniesnft" target={"_blank"}>
+          <a href="https://www.instagram.com/shark_technology_dev/?hl=en" target={"_blank"}>
             <SocialIcon>
               <InstagramSVG fill="#000" />
             </SocialIcon>
@@ -93,13 +93,13 @@ const HeaderContainer = () => {
           <ResBarMenu>
             <ResNavMenu>
               <a href="#story">
-                <NavItem>OuR STORY</NavItem>
+                <NavItem>ABOUT US</NavItem>
               </a>
               <a href="#benefit">
-                <NavItem>BeNeFITS</NavItem>
+                <NavItem>PROJECTS</NavItem>
               </a>
               <a href="#roadmap">
-                <NavItem>ROADMAP</NavItem>
+                <NavItem>SERVICES</NavItem>
               </a>
               <a href="#team">
                 <NavItem>TeAM</NavItem>
@@ -109,13 +109,13 @@ const HeaderContainer = () => {
               </a>
             </ResNavMenu>
             <ResSocialItems>
-              <a href="https://twitter.com/savebunniesnft" target={"_blank"}>
+              <a href="https://twitter.com/SHARKTECHNOLOG2" target={"_blank"}>
                 <SocialIcon>
                   <TwitterSVG fill="#000" />
                 </SocialIcon>
               </a>
               <a
-                href="https://www.instagram.com/savebunniesnft"
+                href="https://www.instagram.com/shark_technology_dev/?hl=en"
                 target={"_blank"}
               >
                 <SocialIcon>

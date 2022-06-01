@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StoryPartOut = styled.div`
-  background: url("img/story.png");
+  background: url("img/fondo.jpg");
   background-position: center;
   background-size: 100% 100%;
   margin-top: -5px;

@@ -45,7 +45,7 @@ export const SavedTitle = styled.div`
     z-index: 2;
     position: relative;
     ::after {
-      content: url("img/yellowline.svg");
+      
       z-index: -1;
       position: absolute;
       left: 0;

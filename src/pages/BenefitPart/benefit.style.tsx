@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const BenefitOut = styled.div`
-  background: url("img/grass.png");
+  background: url("img/more.jpg");
   background-repeat: no-repeat;
   margin-top: -10px;
   background-size: 100% 100%;

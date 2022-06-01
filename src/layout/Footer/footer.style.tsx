@@ -4,7 +4,7 @@ export const FooterOut = styled.div`
     width: 100vw;
     display: flex;
     justify-content: center;
-    background: url('img/Footer.png');
+    background: url('img/more.jpg');
     background-repeat: no-repeat;
     padding: 48px 0 30px 0;
     background-position: center;

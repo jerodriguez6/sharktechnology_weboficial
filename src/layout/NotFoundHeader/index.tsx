@@ -14,7 +14,7 @@ const HeaderContainer = () => {
             </Link>
             <NavMenu>
                 <a href='#story'>
-                    <NavItem>OuR STORY</NavItem>
+                    <NavItem>ABOUT</NavItem>
                 </a>
                 <a href='#benefit'>
                     <NavItem>BeNeFITS</NavItem>
@@ -30,10 +30,10 @@ const HeaderContainer = () => {
                 </a>
             </NavMenu>
             <SocialItems>
-            <a href='https://twitter.com/nft_bunnies' target={'_blank'}>
+            <a href='https://twitter.com/SHARKTECHNOLOG2' target={'_blank'}>
                     <SocialIconTwitterImg src='img/twitter.svg' alt='' item='twitter.svg'/>
                 </a>
-                <a href='https://www.instagram.com/savethebunniesnft' target={'_blank'}>
+                <a href='https://www.instagram.com/shark_technology_dev/?hl=en' target={'_blank'}>
                     <SocialIconInstaImg src='img/instagram.svg' alt='' item='instagram.svg'/>
                 </a>
                 <a href='https://discord.gg/Ab433VcrVU' target={'_blank'}>
@@ -48,7 +48,7 @@ const HeaderContainer = () => {
                 <ResBarMenu>
                     <ResNavMenu>
                     <a href='#story'>
-                        <NavItem>OuR STORY</NavItem>
+                        <NavItem>ABOUT</NavItem>
                     </a>
                     <a href='#benefit'>
                         <NavItem>BeNeFITS</NavItem>
@@ -64,10 +64,10 @@ const HeaderContainer = () => {
                     </a>
                     </ResNavMenu>
                     <ResSocialItems>
-                    <a href='https://twitter.com/nft_bunnies' target={'_blank'}>
+                    <a href='https://twitter.com/SHARKTECHNOLOG2' target={'_blank'}>
                     <SocialIconTwitterImg src='img/twitter.svg' alt='' item='twitter.svg'/>
                 </a>
-                <a href='https://www.instagram.com/savethebunniesnft' target={'_blank'}>
+                <a href='https://www.instagram.com/shark_technology_dev/?hl=en' target={'_blank'}>
                     <SocialIconInstaImg src='img/instagram.svg' alt='' item='instagram.svg'/>
                 </a>
                 <a href='https://discord.gg/Ab433VcrVU' target={'_blank'}>
