@@ -34,7 +34,7 @@ const MainPage = () => {
   useEffect(() => {
     const getData = async () => {
       const query = await axios({
-        url: "https://api-ca-central-1.graphcms.com/v2/cl14bkut8eyl601za5bmkb9kr/master",
+        url: "",
         method: "post",
         data: {
           query: `
@@ -55,21 +55,21 @@ const MainPage = () => {
     <>
       <RoadMapOut id="roadmap">
         <Roadmap>
-          <RoadmapTitle>SERVICES</RoadmapTitle>
+          <RoadmapTitle>ROADMAP</RoadmapTitle>
           {/* -----------first part---------------- */}
           <RoadmapFirstPart mt="40px">
             <RoadmapFirstLeft>
               <RoadCard>
                 <RoadProImg src="img/tibu.png" alt="" />
                 <RoadCardRight>
-                  <RoadRightTitle>WALLETS</RoadRightTitle>
-                  <RoadRightText>{data.roadmapContent[0]}</RoadRightText>
+                  <RoadRightTitle>Q4 - 2021</RoadRightTitle>
+                  <RoadRightText>Desarrollamos billeteras criptográficas de acuerdo a la necesidad de su proyecto. Desde billeteras de un solo token hasta billeteras criptográficas de múltiples tokens.</RoadRightText>
                 </RoadCardRight>
               </RoadCard>
               <RoadCard>
                 <RoadProImg src="img/tibu.png" alt="" />
                 <RoadCardRight>
-                  <RoadRightTitle>CRYPTOCURRENCY AND TOKEN</RoadRightTitle>
+                  <RoadRightTitle>Q1 - 2022</RoadRightTitle>
                   <RoadRightText>{data.roadmapContent[1]}</RoadRightText>
                 </RoadCardRight>
               </RoadCard>
@@ -93,14 +93,14 @@ const MainPage = () => {
               <RoadSecCard>
                 <RoadSecProImg src="img/tibu.png" alt="" />
                 <RoadSecCardRight>
-                  <RoadSecRightTitle>SMART CONTRACT</RoadSecRightTitle>
+                  <RoadSecRightTitle>Q2 - 2022</RoadSecRightTitle>
                   <RoadSecRightText>{data.roadmapContent[2]}</RoadSecRightText>
                 </RoadSecCardRight>
               </RoadSecCard>
               <RoadSecCard>
                 <RoadSecProImg src="img/tibu.png" alt="" />
                 <RoadSecCardRight>
-                  <RoadSecRightTitle>NFT AND MARKETPLACE</RoadSecRightTitle>
+                  <RoadSecRightTitle>Q3 - 2022</RoadSecRightTitle>
                   <RoadSecRightText>{data.roadmapContent[3]}</RoadSecRightText>
                 </RoadSecCardRight>
               </RoadSecCard>
@@ -112,14 +112,14 @@ const MainPage = () => {
               <RoadCard>
                 <RoadProImg src="img/tibu.png" alt="" />
                 <RoadCardRight>
-                  <RoadRightTitle>VIDEO GAMES DEVELOPMENT</RoadRightTitle>
+                  <RoadRightTitle>Q4 - 2022</RoadRightTitle>
                   <RoadRightText>{data.roadmapContent[4]}</RoadRightText>
                 </RoadCardRight>
               </RoadCard>
               <RoadCard>
                 <RoadProImg src="img/tibu.png" alt="" />
                 <RoadCardRight>
-                  <RoadRightTitle>METAVERSE</RoadRightTitle>
+                  <RoadRightTitle>Q1 - 2023</RoadRightTitle>
                   <RoadRightText>{data.roadmapContent[5]}</RoadRightText>
                 </RoadCardRight>
               </RoadCard>
