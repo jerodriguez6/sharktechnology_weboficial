@@ -37,7 +37,7 @@ const BenefitContainer = () => {
       <BenefitOut id="benefit">
         <Benefit>
           <BenefitLeft>
-            <BenefitTitle>PROJECTS</BenefitTitle>
+            <BenefitTitle>SERVICES</BenefitTitle>
             <BenefitUL>
               {data.benefitContent.map((v: string, k: number) => (
                 <BenefitLi key={k}>{v}</BenefitLi>

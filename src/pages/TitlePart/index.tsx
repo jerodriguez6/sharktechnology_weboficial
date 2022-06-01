@@ -62,7 +62,7 @@ const TitleContainer = () => {
           <SaveBunniBtns>
             <Link to="/mint">
               <SaveBunniBtnLeft>
-                Mint Date:
+                Mint:
                 <br />
                 <span>COMING SOON</span>
               </SaveBunniBtnLeft>

@@ -45,7 +45,7 @@ const LengeContainer = () => {
     <>
       <LegenOut>
         <LegenPart>
-          <LegenTitle>Legendary Bunnies</LegenTitle>
+          <LegenTitle>PROJECTS</LegenTitle>
           <Swiper
             slidesPerView={4}
             spaceBetween={30}
@@ -80,8 +80,8 @@ const LengeContainer = () => {
             {data.legenImg.map((v: any, k: number) => (
               <SwiperSlide key={k}>
                 <LegenItem>
-                  <LegenImg src={v.url} alt="" />
-                  <LegenName>{data.legenName[k]}</LegenName>
+                <LegenImg src="img/st.png" alt="" />
+                  <LegenName>COMING SOON</LegenName>
                 </LegenItem>
               </SwiperSlide>
             ))}

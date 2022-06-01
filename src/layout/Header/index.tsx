@@ -48,10 +48,10 @@ const HeaderContainer = () => {
             <NavItem>ABOUT US</NavItem>
           </a>
           <a href="#benefit">
-            <NavItem>PROJECTS</NavItem>
+            <NavItem>SERVICES</NavItem>
           </a>
           <a href="#roadmap">
-            <NavItem>SERVICES</NavItem>
+            <NavItem>ROADMAP</NavItem>
           </a>
           <a href="#team">
             <NavItem>TeAM</NavItem>
@@ -96,10 +96,10 @@ const HeaderContainer = () => {
                 <NavItem>ABOUT US</NavItem>
               </a>
               <a href="#benefit">
-                <NavItem>PROJECTS</NavItem>
+                <NavItem>SERVICES</NavItem>
               </a>
               <a href="#roadmap">
-                <NavItem>SERVICES</NavItem>
+                <NavItem>ROADMAP</NavItem>
               </a>
               <a href="#team">
                 <NavItem>TeAM</NavItem>
