@@ -9,6 +9,7 @@ export const FAQOut = styled.div`
   display: flex;
   justify-content: center;
   padding-top: 112px;
+  background: #70e1dc;
 `;
 export const FAQPart = styled.div`
   display: flex;

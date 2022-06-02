@@ -5,6 +5,7 @@ export const RoadMapOut = styled.div`
   display: flex;
   padding-top: 112px;
   justify-content: center;
+  background: #70e1dc;
 `;
 export const Roadmap = styled.div`
   width: 1440px;
