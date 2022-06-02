@@ -61,8 +61,8 @@ export const BenefitLi = styled.li`
   }
   font-family: "Inter";
   font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
+  font-weight: 1000;
+  font-size: 20px;
   line-height: 28px;
   color: #ffffff;
   @media screen and (max-width: 1230px) {

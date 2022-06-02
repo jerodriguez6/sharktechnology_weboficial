@@ -59,7 +59,7 @@ const StoryContainer = () => {
               </StoryRightItem>
               <StoryRightItem>
                 <StoryImg src="img/st.png" alt="" />
-                <StoryText>From the development of smart contracts, crypto assets, asset tokenization, wallets, to the creation of payment dApps and NFTs. By cooperating with SHARK TECHNOLOGY, you will get the full range of benefits from our Blockchain technology expertise.</StoryText>
+                <StoryText>From the development of smart contracts, crypto assets, asset tokenization, wallets, to the creation of payment dApps, NFT, metaverse. By cooperating with SHARK TECHNOLOGY, you will get the full range of benefits from our Blockchain technology expertise.</StoryText>
               </StoryRightItem>
             </StoryRight>
           </MainStory>
