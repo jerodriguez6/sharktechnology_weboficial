@@ -39,9 +39,17 @@ const BenefitContainer = () => {
           <BenefitLeft>
             <BenefitTitle>SERVICES</BenefitTitle>
             <BenefitUL>
-              {data.benefitContent.map((v: string, k: number) => (
-                <BenefitLi key={k}>{v}</BenefitLi>
-              ))}
+              <BenefitLi key={1}>SMART CONTRACT</BenefitLi>
+              <BenefitLi key={1}>CRIPTOCURRENCY AND TOKEN</BenefitLi>
+              <BenefitLi key={1}>WALLET</BenefitLi>
+              <BenefitLi key={1}>NFT</BenefitLi>
+              <BenefitLi key={1}>MARKETPLACE</BenefitLi>
+              <BenefitLi key={1}>DAPPS</BenefitLi>
+              <BenefitLi key={1}>VIDEO GAME</BenefitLi>
+              <BenefitLi key={1}>METAVERSE</BenefitLi>
+              <BenefitLi key={1}>AUTOMATION</BenefitLi>
+              <BenefitLi key={1}>CONSULTANCY AND ADVICE</BenefitLi>
+              <BenefitLi key={1}>SOFTWARE DEVELOPMENT</BenefitLi>
             </BenefitUL>
           </BenefitLeft>
           <BenefitRight src="img/eth.png" alt="" />

@@ -22,6 +22,10 @@ import {
   RoadSecRightTitle,
   RoadSecRightText,
 } from "./roadmap.style";
+import {
+  BenefitUL,
+  BenefitLi,
+} from "./../BenefitPart/benefit.style";
 import axios from "axios";
 const MainPage = () => {
   useEffect(() => {
@@ -63,14 +67,24 @@ const MainPage = () => {
                 <RoadProImg src="img/tibu.png" alt="" />
                 <RoadCardRight>
                   <RoadRightTitle>Q4 - 2021</RoadRightTitle>
-                  <RoadRightText>Desarrollamos billeteras criptográficas de acuerdo a la necesidad de su proyecto. Desde billeteras de un solo token hasta billeteras criptográficas de múltiples tokens.</RoadRightText>
+              <BenefitUL>
+              <BenefitLi key={1}>Formation of the work team.</BenefitLi>
+              <BenefitLi key={1}>Workplan.</BenefitLi>
+              <BenefitLi key={1}>Social networks.</BenefitLi>
+              <BenefitLi key={1}>Web development of NFT games and dApp.</BenefitLi>
+              </BenefitUL>
                 </RoadCardRight>
               </RoadCard>
               <RoadCard>
                 <RoadProImg src="img/tibu.png" alt="" />
                 <RoadCardRight>
                   <RoadRightTitle>Q1 - 2022</RoadRightTitle>
-                  <RoadRightText>{data.roadmapContent[1]}</RoadRightText>
+                  <BenefitUL>
+                    <BenefitLi key={1}>Development and integration of VR applications
+                    <br></br> for Oculus go, Oculus rift 2 and Oculus Quest 2.</BenefitLi>
+                    <BenefitLi key={1}>Smart contract development for NFT.</BenefitLi>
+                    <BenefitLi key={1}>NFT game dApp development.</BenefitLi>
+                  </BenefitUL>
                 </RoadCardRight>
               </RoadCard>
             </RoadmapFirstLeft>
@@ -94,7 +108,11 @@ const MainPage = () => {
                 <RoadSecProImg src="img/tibu.png" alt="" />
                 <RoadSecCardRight>
                   <RoadSecRightTitle>Q2 - 2022</RoadSecRightTitle>
-                  <RoadSecRightText>{data.roadmapContent[2]}</RoadSecRightText>
+                  <BenefitUL>
+                    <BenefitLi key={1}>2FA Security.</BenefitLi>
+                    <BenefitLi key={1}>Exchange platform developmentT.</BenefitLi>
+                    <BenefitLi key={1}>NFT game dApp development.</BenefitLi>
+                  </BenefitUL>
                 </RoadSecCardRight>
               </RoadSecCard>
               <RoadSecCard>
