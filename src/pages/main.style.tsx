@@ -17,6 +17,7 @@ export const BunniPart = styled.div`
     padding-bottom: 50px;
     @media screen and (max-width:850px){
         background: url('img/marea.png');
+        z-index: -1;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -52,5 +53,9 @@ export  const CloudImg = styled.img`
     /* transition: all 1s; */
     @media screen and (max-width:850px){
         display: none;
+    }
+`;
+export  const FloatingWhatsApp = styled.div`
+    background-color: #000000;
     }
 `;
