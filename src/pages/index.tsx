@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useMediaQuery } from "beautiful-react-hooks";
+import FloatingWhatsApp from 'react-floating-whatsapp';
 // --------------layer----------------
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
@@ -56,6 +57,7 @@ const MainPage: React.FC = () => {
           alt=""
           id="mountain"
         />
+        
         <GrassImg
           className={className}
           src="img/marea.png"
@@ -75,7 +77,20 @@ const MainPage: React.FC = () => {
       <FAQPart />
       <SavePart />
       <Footer />
+
+      <FloatingWhatsApp 
+      className={className} 
+      phoneNumber='573209716675'
+      accountName='Shark'
+      allowClickAway     
+      notification
+      notificationSound
+      notificationDelay={60000}
+      darkMode    
+      />
+
     </>
+  
   );
 };
 export default MainPage;
