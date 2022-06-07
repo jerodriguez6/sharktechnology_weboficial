@@ -73,6 +73,41 @@ const MainPage = () => {
                   )}
                 </FAQItem>
               ))}
+              <FAQItem onClick={() => OpenFAQ(1)} key={1}>
+                  <FAQMain>
+                    <PlusImg
+                      src="img/plus.svg"
+                      flag={openflag == 1 && faqflag && true}
+                      alt=""
+                    />
+                    Mi pregunta
+                  </FAQMain>
+                  {faqflag && openflag == 1 && (
+                    <FAQBody
+                      dangerouslySetInnerHTML={{
+                        __html: `asflasjkeflñsakjef`,
+                      }}
+                    />
+                  )}
+                </FAQItem>
+                <FAQItem onClick={() => OpenFAQ(2)} key={2}>
+                  <FAQMain>
+                    <PlusImg
+                      src="img/plus.svg"
+                      flag={openflag == 2 && faqflag && true}
+                      alt=""
+                    />
+                    Mi pregunta 2
+                  </FAQMain>
+                  {faqflag && openflag == 2 && (
+                    <FAQBody
+                      dangerouslySetInnerHTML={{
+                        __html: `qwerqwerqwerqwerwqerqwerq`,
+                      }}
+                    />
+                  )}
+                </FAQItem>
+
             </FAQList>
           </FAQLeft>
           <FAQRight src="img/carrot.png" alt="" />
