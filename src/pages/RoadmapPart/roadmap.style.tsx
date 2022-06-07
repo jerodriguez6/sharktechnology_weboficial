@@ -47,7 +47,7 @@ export const RoadmapFirstPart = styled.div<{ mt?: any }>`
 export const RoadCard = styled.div`
   display: flex;
   padding: 52px 0 52px 74px;
-  background: #02398B;
+  background: #00adff;
   width: 980px;
   border-radius: 30px;
   @media screen and (max-width: 1480px) {
@@ -99,7 +99,7 @@ export const RoadRightText = styled.div`
   margin-top: 12px;
   font-size: 18px;
   line-height: 28px;
-  color: #000;
+  color: #000000;
 `;
 export const RoadRightTitle = styled.div`
   font-family: "Luckiest Guy";
@@ -174,7 +174,7 @@ export const RoadmapSecRight = styled.img`
 export const RoadSecCard = styled.div`
   display: flex;
   padding: 52px 0 52px 74px;
-  background: #02398B;
+  background: #00adff;
   width: 980px;
   border-radius: 30px;
   @media screen and (max-width: 1480px) {
@@ -216,7 +216,7 @@ export const RoadSecRightTitle = styled.div`
   font-weight: 400;
   font-size: 38px;
   line-height: 42px;
-  color: #2e1e00;
+  color: #0931b5;
 `;
 export const RoadSecRightText = styled.div`
   font-family: "Inter";

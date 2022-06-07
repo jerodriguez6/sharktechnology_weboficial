@@ -20,7 +20,7 @@ export const LegenTitle = styled.div`
     font-size: 78px;
     line-height: 80px;
     letter-spacing: -0.02em;
-    color: #2E1E00;
+    color: #0d0ae5;
     z-index: 2;
     margin-bottom: 40px;
     position: relative;

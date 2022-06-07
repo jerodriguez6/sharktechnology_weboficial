@@ -62,7 +62,7 @@ const MainPage = () => {
                       flag={openflag == k && faqflag && true}
                       alt=""
                     />
-                    {v}
+                    mi
                   </FAQMain>
                   {faqflag && openflag == k && (
                     <FAQBody
