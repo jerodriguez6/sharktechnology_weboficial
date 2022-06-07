@@ -57,6 +57,7 @@ const MainPage: React.FC = () => {
           alt=""
           id="mountain"
         />
+        
         <GrassImg
           className={className}
           src="img/marea.png"
