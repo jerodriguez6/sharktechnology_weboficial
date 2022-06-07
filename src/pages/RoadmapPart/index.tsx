@@ -118,7 +118,7 @@ const MainPage = () => {
               <RoadSecCard>
                 <RoadSecProImg src="img/tibu.png" alt="" />
                 <RoadSecCardRight>
-                  <RoadSecRightTitle>Q3 - 2022</RoadSecRightTitle>
+                  <RoadSecRightTitle>Q3 - 2022, coming soon</RoadSecRightTitle>
                   <RoadSecRightText>{data.roadmapContent[3]}</RoadSecRightText>
                 </RoadSecCardRight>
               </RoadSecCard>
@@ -130,14 +130,14 @@ const MainPage = () => {
               <RoadCard>
                 <RoadProImg src="img/tibu.png" alt="" />
                 <RoadCardRight>
-                  <RoadRightTitle>Q4 - 2022</RoadRightTitle>
+                  <RoadRightTitle>Q4 - 2022, coming soon</RoadRightTitle>
                   <RoadRightText>{data.roadmapContent[4]}</RoadRightText>
                 </RoadCardRight>
               </RoadCard>
               <RoadCard>
                 <RoadProImg src="img/tibu.png" alt="" />
                 <RoadCardRight>
-                  <RoadRightTitle>Q1 - 2023</RoadRightTitle>
+                  <RoadRightTitle>Q1 - 2023, coming soon</RoadRightTitle>
                   <RoadRightText>{data.roadmapContent[5]}</RoadRightText>
                 </RoadCardRight>
               </RoadCard>
