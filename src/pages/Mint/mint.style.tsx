@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const MintPartOut = styled.div`
   background: url("img/marea.jpg") no-repeat;
+  z-index: -1;
   background-position: center;
   background-size: 100% 100%;
   width: 100vw;

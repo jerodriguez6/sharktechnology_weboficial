@@ -58,6 +58,18 @@ const TeamContainer = () => {
                 <TeamItemText><h2>Co-Founder, CTO</h2></TeamItemText>
                 <TeamItemText>Blockchain and Dev ops engineer, experience in the field of computer security. He also has experience developing solutions that implement blockchain using HyperLedger and knowledge developing smart contracts with Solidity.</TeamItemText>
               </TeamItem>
+              <TeamItem key={2}>
+                <TeamImg src="img/LAUSUA.png" alt="" />
+                <TeamItemName>LAURA SUA</TeamItemName>
+                <TeamItemText><h2>Director of design and marketing.</h2></TeamItemText>
+                <TeamItemText>Expert in digital marketing with more than 3 years creating brands and companies, she has helped many small businesses achieve their goal..</TeamItemText>
+              </TeamItem>
+              <TeamItem key={2}>
+                <TeamImg src="img/KEN.png" alt="" />
+                <TeamItemName>RENE</TeamItemName>
+                <TeamItemText><h2>Legal Address</h2></TeamItemText>
+                <TeamItemText>Experienced and innovative lawyer. With a proven track record in achieving favorable results for clients. A strong leader who understands the complexities of the legal system and the world of blockchain technology.</TeamItemText>
+              </TeamItem>
           </TeamBody>
         </TeamPart>
       </TeamOut>
