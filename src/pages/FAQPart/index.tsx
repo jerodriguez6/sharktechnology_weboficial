@@ -54,25 +54,6 @@ const MainPage = () => {
           <FAQLeft>
             <FAQTitle>FAQ</FAQTitle>
             <FAQList>
-              {data.faqTitle.map((v: any, k: number) => (
-                <FAQItem onClick={() => OpenFAQ(k)} key={k}>
-                  <FAQMain>
-                    <PlusImg
-                      src="img/plus.svg"
-                      flag={openflag == k && faqflag && true}
-                      alt=""
-                    />
-                    mi
-                  </FAQMain>
-                  {faqflag && openflag == k && (
-                    <FAQBody
-                      dangerouslySetInnerHTML={{
-                        __html: data.faqContent[k],
-                      }}
-                    />
-                  )}
-                </FAQItem>
-              ))}
               <FAQItem onClick={() => OpenFAQ(1)} key={1}>
                   <FAQMain>
                     <PlusImg
@@ -80,12 +61,12 @@ const MainPage = () => {
                       flag={openflag == 1 && faqflag && true}
                       alt=""
                     />
-                    Mi pregunta
+                    ¿Que es un metaverso?
                   </FAQMain>
                   {faqflag && openflag == 1 && (
                     <FAQBody
                       dangerouslySetInnerHTML={{
-                        __html: `asflasjkeflñsakjef`,
+                        __html: `El Metaverso es un mundo virtual, uno al que nos conectaremos utilizando una serie de dispositivos que nos harán pensar que realmente estamos dentro de él, interactuando con todos sus elementos.`,
                       }}
                     />
                   )}
@@ -97,17 +78,67 @@ const MainPage = () => {
                       flag={openflag == 2 && faqflag && true}
                       alt=""
                     />
-                    Mi pregunta 2
+                    ¿Que es blockchain?
                   </FAQMain>
                   {faqflag && openflag == 2 && (
                     <FAQBody
                       dangerouslySetInnerHTML={{
-                        __html: `qwerqwerqwerqwerwqerqwerq`,
+                        __html: `Blockchain es un sistema distribuido y descentralizado usado para almacenar bloques de transacciones y verificarlos con una red de nodos. Estos bloques no pueden ser alterados una vez verificados.`,
                       }}
                     />
                   )}
                 </FAQItem>
-
+                <FAQItem onClick={() => OpenFAQ(3)} key={3}>
+                  <FAQMain>
+                    <PlusImg
+                      src="img/plus.svg"
+                      flag={openflag == 3 && faqflag && true}
+                      alt=""
+                    />
+                    ¿Que son NFT's?
+                  </FAQMain>
+                  {faqflag && openflag == 3 && (
+                    <FAQBody
+                      dangerouslySetInnerHTML={{
+                        __html: `Las siglas de NFT significan Non -Fungible Token, un token no fungible. Los tokens son unidades de valor que se le asignan a un modelo de negocio, como por ejemplo el de las criptomonedas.`,
+                      }}
+                    />
+                  )}
+                </FAQItem>
+                <FAQItem onClick={() => OpenFAQ(4)} key={4}>
+                  <FAQMain>
+                    <PlusImg
+                      src="img/plus.svg"
+                      flag={openflag == 4 && faqflag && true}
+                      alt=""
+                    />
+                    ¿Que es realidad mixta (XR)?
+                  </FAQMain>
+                  {faqflag && openflag == 4 && (
+                    <FAQBody
+                      dangerouslySetInnerHTML={{
+                        __html: `La realidad mixta es una mezcla de universos físicos y digitales, que permite interacciones 3D naturales e intuitivas entre personas, equipos y el entorno.`,
+                      }}
+                    />
+                  )}
+                </FAQItem>
+                <FAQItem onClick={() => OpenFAQ(5)} key={5}>
+                  <FAQMain>
+                    <PlusImg
+                      src="img/plus.svg"
+                      flag={openflag == 5 && faqflag && true}
+                      alt=""
+                    />
+                    ¿Que es realidad virtual (VR)?
+                  </FAQMain>
+                  {faqflag && openflag == 5 && (
+                    <FAQBody
+                      dangerouslySetInnerHTML={{
+                        __html: `Es un entorno de escenas y objetos de apariencia real —generado mediante tecnología informática— que crea en el usuario la sensación de estar inmerso en él. Dicho entorno se contempla a través de un dispositivo conocido como gafas o casco de Realidad Virtual.`,
+                      }}
+                    />
+                  )}
+                </FAQItem>
             </FAQList>
           </FAQLeft>
           <FAQRight src="img/carrot.png" alt="" />
