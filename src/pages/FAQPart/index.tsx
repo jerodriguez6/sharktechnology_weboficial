@@ -139,6 +139,74 @@ const MainPage = () => {
                     />
                   )}
                 </FAQItem>
+                <FAQItem onClick={() => OpenFAQ(6)} key={6}>
+                  <FAQMain>
+                    <PlusImg
+                      src="img/plus.svg"
+                      flag={openflag == 6 && faqflag && true}
+                      alt=""
+                    />
+                    ¿Que es exchain?
+                  </FAQMain>
+                  {faqflag && openflag == 6 && (
+                    <FAQBody
+                      dangerouslySetInnerHTML={{
+                        __html: `Podemos definir el exchange como una plataforma o mercado virtual en la que podemos realizar intercambios de criptomonedas, ya sea comprar o vender. Estas sirven como intermediario y facilitan los movimientos financieros de los usuarios.`,
+                      }}
+                    />
+                  )}
+                </FAQItem>
+                <FAQItem onClick={() => OpenFAQ(7)} key={7}>
+                  <FAQMain>
+                    <PlusImg
+                      src="img/plus.svg"
+                      flag={openflag == 7 && faqflag && true}
+                      alt=""
+                    />
+                    ¿Que es criptomoneda?
+                  </FAQMain>
+                  {faqflag && openflag == 7 && (
+                    <FAQBody
+                      dangerouslySetInnerHTML={{
+                        __html: `Una criptomoneda es un activo digital que emplea un cifrado criptográfico para garantizar su titularidad y asegurar la integridad de las transacciones, y controlar la creación de unidades adicionales, es decir, evitar que alguien pueda hacer copias como haríamos, por ejemplo, con una foto.`,
+                      }}
+                    />
+                  )}
+                </FAQItem>
+                <FAQItem onClick={() => OpenFAQ(8)} key={8}>
+                  <FAQMain>
+                    <PlusImg
+                      src="img/plus.svg"
+                      flag={openflag == 8 && faqflag && true}
+                      alt=""
+                    />
+                    ¿Que es DAPP?
+                  </FAQMain>
+                  {faqflag && openflag == 8 && (
+                    <FAQBody
+                      dangerouslySetInnerHTML={{
+                        __html: `Son aplicaciones descentralizadas que utilizan 'blockchain' para que los usuarios se relacionen directamente entre ellos y cierren acuerdos, sin que exista una entidad central que gestione el servicio.`,
+                      }}
+                    />
+                  )}
+                </FAQItem>
+                <FAQItem onClick={() => OpenFAQ(9)} key={9}>
+                  <FAQMain>
+                    <PlusImg
+                      src="img/plus.svg"
+                      flag={openflag == 9 && faqflag && true}
+                      alt=""
+                    />
+                    ¿En que te podemos ayudar?
+                  </FAQMain>
+                  {faqflag && openflag == 9 && (
+                    <FAQBody
+                      dangerouslySetInnerHTML={{
+                        __html: `Desde blockchain, metaversos, dapps y web3 apps. Desarrollamos las herramientas necesarias para que tu idea sea una realidad y puedas empezar el camino al exito `,
+                      }}
+                    />
+                  )}
+                </FAQItem>
             </FAQList>
           </FAQLeft>
           <FAQRight src="img/carrot.png" alt="" />
