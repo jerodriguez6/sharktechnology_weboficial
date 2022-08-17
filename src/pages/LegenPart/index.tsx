@@ -77,6 +77,30 @@ const LengeContainer = () => {
             modules={[FreeMode, Navigation]}
             className="mySwiper"
           >
+            <SwiperSlide>
+              <LegenItem>
+              <LegenImg src="img/blumer.jfif" alt="" />
+                <LegenName>BLUMER</LegenName>
+              </LegenItem>
+            </SwiperSlide>
+            <SwiperSlide>
+              <LegenItem>
+              <LegenImg src="img/icon_hb.jpeg" alt="" />
+                <LegenName>FarmVerse</LegenName>
+              </LegenItem>
+            </SwiperSlide>
+            <SwiperSlide>
+              <LegenItem>
+              <LegenImg src="img/eris.webp" alt="" />
+                <LegenName>ERIS GALAXY</LegenName>
+              </LegenItem>
+            </SwiperSlide>            
+            <SwiperSlide>
+              <LegenItem>
+              <LegenImg src="img/CCC.png" alt="" />
+                <LegenName>CANABIS</LegenName>
+              </LegenItem>
+            </SwiperSlide>
             {data.legenImg.map((v: any, k: number) => (
               <SwiperSlide key={k}>
                 <LegenItem>
@@ -85,6 +109,7 @@ const LengeContainer = () => {
                 </LegenItem>
               </SwiperSlide>
             ))}
+            
           </Swiper>
         </LegenPart>
       </LegenOut>
