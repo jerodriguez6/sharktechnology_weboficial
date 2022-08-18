@@ -50,7 +50,7 @@ const LengeContainer = () => {
             slidesPerView={4}
             spaceBetween={30}
             freeMode={true}
-            slidesPerGroup={1}
+            slidesPerGroup={0}
             loopFillGroupWithBlank={true}
             breakpoints={{
               320: {
@@ -80,7 +80,7 @@ const LengeContainer = () => {
             {data.legenImg.map((v: any, k: number) => (
               <SwiperSlide key={k}>
                 <LegenItem>
-                <LegenImg src="img/st.png" alt="" />
+                <video src="img/demo.mp4" width="350" height="280" controls></video>
                   <LegenName>COMING SOON</LegenName>
                 </LegenItem>
               </SwiperSlide>

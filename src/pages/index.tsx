@@ -57,6 +57,16 @@ const MainPage: React.FC = () => {
           alt=""
           id="mountain"
         />
+        <FloatingWhatsApp 
+          className={className} 
+          phoneNumber='573209716675'
+          accountName='Shark'
+          allowClickAway     
+          notification
+          notificationSound
+          notificationDelay={60000}
+          darkMode    
+       />
         
         <GrassImg
           className={className}
@@ -78,16 +88,7 @@ const MainPage: React.FC = () => {
       <SavePart />
       <Footer />
 
-      <FloatingWhatsApp 
-      className={className} 
-      phoneNumber='573209716675'
-      accountName='Shark'
-      allowClickAway     
-      notification
-      notificationSound
-      notificationDelay={60000}
-      darkMode    
-      />
+  
 
     </>
   

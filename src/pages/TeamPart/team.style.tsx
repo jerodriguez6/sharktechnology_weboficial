@@ -45,7 +45,11 @@ export const TeamItem = styled.div`
     width: 294px;
   }
 `;
-export const TeamImg = styled.img``;
+export const TeamImg = styled.img`
+   width: 250px;
+   height:250px;
+`;
+
 export const TeamItemName = styled.div`
   font-family: "Luckiest Guy";
   font-style: normal;

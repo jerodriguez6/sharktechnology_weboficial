@@ -49,7 +49,7 @@ const StoryContainer = () => {
           <OurStory>ABOUT US</OurStory>
           <MainStory>
             <StoryLeft>
-              <StoryTitle>We help startups and companies from different industries to integrate Blockchain technologies.</StoryTitle>
+              <StoryTitle>We are a consulting company and developer of Blockchain technology. We help startups and companies from different industries to integrate Blockchain technologies,.</StoryTitle>
               <StorySub>If your company is ready to implement innovative Blockchain technologies, our company is what you need for your digital transformation.</StorySub>
             </StoryLeft>
             <StoryRight>

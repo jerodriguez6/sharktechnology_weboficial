@@ -5,11 +5,16 @@ export const FooterOut = styled.div`
     display: flex;
     justify-content: center;
     background: url('img/more.jpg');
+    z-index: -1;
     background-repeat: no-repeat;
     padding: 48px 0 30px 0;
     background-position: center;
     background-size: 100% 100%;
     margin-top: -10px;
+    @media screen and (max-width:550px){
+        z-index: -1;
+       
+    }
 `;
 export const SocialIconImg = styled.img`
     cursor: pointer;
