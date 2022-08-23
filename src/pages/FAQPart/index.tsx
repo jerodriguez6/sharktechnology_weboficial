@@ -53,9 +53,9 @@ const MainPage = () => {
         <FAQPart>
           <FAQLeft>
             <FAQTitle>FAQ</FAQTitle>
-            <FAQList>
-            <FAQItem>
-            <FAQMain>
+              <FAQList>
+                <FAQItem>
+                  <FAQMain>
                     <PlusImg
                       src="img/plus.svg"
                       flag={openflag == 1 && faqflag && true}
@@ -84,6 +84,74 @@ const MainPage = () => {
                     <FAQBody
                       dangerouslySetInnerHTML={{
                         __html: `Blockchain es un sistema distribuido y descentralizado usado para almacenar bloques de transacciones y verificarlos con una red de nodos. Estos bloques no pueden ser alterados una vez verificados.`,
+                      }}
+                    />
+                  )}
+                </FAQItem>
+                <FAQItem onClick={() => OpenFAQ(1)} key={1}>
+                  <FAQMain>
+                    <PlusImg
+                      src="img/plus.svg"
+                      flag={openflag == 1 && faqflag && true}
+                      alt=""
+                    />
+                    ¿Que es un metaverso?
+                  </FAQMain>
+                  {faqflag && openflag == 1 && (
+                    <FAQBody
+                      dangerouslySetInnerHTML={{
+                        __html: `El Metaverso es un mundo virtual, uno al que nos conectaremos utilizando una serie de dispositivos que nos harán pensar que realmente estamos dentro de él, interactuando con todos sus elementos.`,
+                      }}
+                    />
+                  )}
+                </FAQItem>
+                <FAQItem onClick={() => OpenFAQ(3)} key={3}>
+                  <FAQMain>
+                    <PlusImg
+                      src="img/plus.svg"
+                      flag={openflag == 3 && faqflag && true}
+                      alt=""
+                    />
+                    ¿Que son NFT's?
+                  </FAQMain>
+                  {faqflag && openflag == 3 && (
+                    <FAQBody
+                      dangerouslySetInnerHTML={{
+                        __html: `Las siglas de NFT significan Non -Fungible Token, un token no fungible. Los tokens son unidades de valor que se le asignan a un modelo de negocio, como por ejemplo el de las criptomonedas.`,
+                      }}
+                    />
+                  )}
+                </FAQItem>
+                <FAQItem onClick={() => OpenFAQ(2)} key={2}>
+                  <FAQMain>
+                    <PlusImg
+                      src="img/plus.svg"
+                      flag={openflag == 2 && faqflag && true}
+                      alt=""
+                    />
+                    ¿Que es blockchain?
+                  </FAQMain>
+                  {faqflag && openflag == 2 && (
+                    <FAQBody
+                      dangerouslySetInnerHTML={{
+                        __html: `Blockchain es un sistema distribuido y descentralizado usado para almacenar bloques de transacciones y verificarlos con una red de nodos. Estos bloques no pueden ser alterados una vez verificados.`,
+                      }}
+                    />
+                  )}
+                </FAQItem>
+                <FAQItem onClick={() => OpenFAQ(4)} key={4}>
+                  <FAQMain>
+                    <PlusImg
+                      src="img/plus.svg"
+                      flag={openflag == 4 && faqflag && true}
+                      alt=""
+                    />
+                    ¿Que es realidad mixta (XR)?
+                  </FAQMain>
+                  {faqflag && openflag == 4 && (
+                    <FAQBody
+                      dangerouslySetInnerHTML={{
+                        __html: `La realidad mixta es una mezcla de universos físicos y digitales, que permite interacciones 3D naturales e intuitivas entre personas, equipos y el entorno.`,
                       }}
                     />
                   )}
@@ -207,7 +275,6 @@ const MainPage = () => {
                     />
                   )}
                 </FAQItem>
-
             </FAQList>
           </FAQLeft>
           <FAQRight src="img/carrot.png" alt="" />
