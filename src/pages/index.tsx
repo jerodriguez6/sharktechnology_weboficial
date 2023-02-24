@@ -59,7 +59,7 @@ const MainPage: React.FC = () => {
         />
         <FloatingWhatsApp 
           className={className} 
-          phoneNumber='573209716675'
+          phoneNumber='573175090528'
           accountName='Shark'
           allowClickAway     
           notification

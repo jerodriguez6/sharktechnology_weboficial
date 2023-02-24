@@ -44,7 +44,8 @@ const FooterContainer = () => {
                     </SocialItems>
                 </FooterTop>
                 <FooterBottom>
-                    <FBLeft>© 2022 SHARK TECHNOLOGY - Engineers. All rights reserved.</FBLeft>
+                    <FBLeft>© 2021 SHARK TECHNOLOGY - Engineers. All rights reserved.</FBLeft> 
+                    <FBLeft>E-mail: info@sharktechnology.dev</FBLeft>
                     <FBRight>
                         <Link to='/privacy'>
                             <FBItem>Privacy</FBItem>

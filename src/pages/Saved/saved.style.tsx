@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const MintPartOut = styled.div`
-  background: url("img/savedback.png") no-repeat;
+  background: url("img/marea.png") no-repeat;
   background-position: center;
   background-size: cover;
   width: 100vw;

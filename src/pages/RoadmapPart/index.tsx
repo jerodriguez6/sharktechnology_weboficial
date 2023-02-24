@@ -66,7 +66,7 @@ const MainPage = () => {
               <RoadCard>
                 <RoadProImg src="img/tibu.png" alt="" />
                 <RoadCardRight>
-                  <RoadRightTitle>Q4 - 2021</RoadRightTitle>
+                  <RoadRightTitle>Q4 - 2021 ✔️</RoadRightTitle>
               <BenefitUL>
               <BenefitLi key={1}>Formation of the work team.</BenefitLi>
               <BenefitLi key={1}>Workplan.</BenefitLi>
@@ -78,7 +78,7 @@ const MainPage = () => {
               <RoadCard>
                 <RoadProImg src="img/tibu.png" alt="" />
                 <RoadCardRight>
-                  <RoadRightTitle>Q1 - 2022</RoadRightTitle>
+                  <RoadRightTitle>Q1 - 2022 ✔️</RoadRightTitle>
                   <BenefitUL>
                     <BenefitLi key={1}>Development and integration of VR applications
                     <br></br> for Oculus go, Oculus rift 2 and Oculus Quest 2.</BenefitLi>
@@ -107,10 +107,10 @@ const MainPage = () => {
               <RoadSecCard>
                 <RoadSecProImg src="img/tibu.png" alt="" />
                 <RoadSecCardRight>
-                  <RoadSecRightTitle>Q2 - 2022</RoadSecRightTitle>
+                  <RoadSecRightTitle>Q2 - 2022 ✔️</RoadSecRightTitle>
                   <BenefitUL>
                     <BenefitLi key={1}>2FA Security.</BenefitLi>
-                    <BenefitLi key={1}>Exchange platform developmentT.</BenefitLi>
+                    <BenefitLi key={1}>Exchange platform development.</BenefitLi>
                     <BenefitLi key={1}>NFT game dApp development.</BenefitLi>
                   </BenefitUL>
                 </RoadSecCardRight>
@@ -118,7 +118,14 @@ const MainPage = () => {
               <RoadSecCard>
                 <RoadSecProImg src="img/tibu.png" alt="" />
                 <RoadSecCardRight>
-                  <RoadSecRightTitle>Q3 - 2022, coming soon</RoadSecRightTitle>
+                  <RoadSecRightTitle>Q3 - 2022 ✔️</RoadSecRightTitle>
+                  <BenefitUL>
+                    <BenefitLi key={1}>Delivery of the first Marketplace NFT.</BenefitLi>
+                    <BenefitLi key={1}>First centralized Wallet client.</BenefitLi>
+                    <BenefitLi key={1}>Delivery of deflationary token to our client.</BenefitLi>
+                    <BenefitLi key={1}>Pre-sale ICO dapp delivery.</BenefitLi>
+                    <BenefitLi key={1}>Legalization of the company <br /> SHARK TECHNOLOGY – Engineers.</BenefitLi>
+                  </BenefitUL>
                   <RoadSecRightText>{data.roadmapContent[3]}</RoadSecRightText>
                 </RoadSecCardRight>
               </RoadSecCard>
@@ -130,14 +137,27 @@ const MainPage = () => {
               <RoadCard>
                 <RoadProImg src="img/tibu.png" alt="" />
                 <RoadCardRight>
-                  <RoadRightTitle>Q4 - 2022, coming soon</RoadRightTitle>
+                  <RoadRightTitle>Q4 - 2022 ✔️</RoadRightTitle>
+                  <BenefitUL>
+                    <BenefitLi key={1}>Development of Decentralized Wallet.</BenefitLi>
+                    <BenefitLi key={1}>NFT Marketplace development.</BenefitLi>
+                    <BenefitLi key={1}>Development of a DEX swap.</BenefitLi>
+                  </BenefitUL>
                   <RoadRightText>{data.roadmapContent[4]}</RoadRightText>
                 </RoadCardRight>
               </RoadCard>
               <RoadCard>
                 <RoadProImg src="img/tibu.png" alt="" />
                 <RoadCardRight>
-                  <RoadRightTitle>Q1 - 2023, coming soon</RoadRightTitle>
+                  <RoadRightTitle>Q1 - 2023, coming soon ⏳</RoadRightTitle>
+                  <BenefitUL>
+                    <BenefitLi key={1}>Dapp design.</BenefitLi>
+                    <BenefitLi key={1}>Development of Smart contract dapp.</BenefitLi>
+                    <BenefitLi key={1}>Staking (token, nft).</BenefitLi>
+                    <BenefitLi key={1}>Farming.</BenefitLi>
+                    <BenefitLi key={1}>Exchange P2P.</BenefitLi>
+                    <BenefitLi key={1}>Launchpad protocol.</BenefitLi>
+                  </BenefitUL>
                   <RoadRightText>{data.roadmapContent[5]}</RoadRightText>
                 </RoadCardRight>
               </RoadCard>
@@ -147,6 +167,61 @@ const MainPage = () => {
               className="aos-init aos-animate"
             >
               <RoadmapFirstRight src="img/meta.png" alt="" />
+            </RoadmapFirstRightOut>
+          </RoadmapFirstPart>
+          <RoadmapSecPart>
+            <RoadmapFirstRightOut
+              data-aos="fade-right"
+              className="aos-init aos-animate"
+            >
+              <RoadmapSecRight src="img/NFTS.png" alt="" />
+            </RoadmapFirstRightOut>
+            <RoadmapSecLeft>
+              <RoadSecCard>
+                <RoadSecProImg src="img/tibu.png" alt="" />
+                <RoadSecCardRight>
+                  <RoadSecRightTitle>Q2 - 2023, coming soon ⏳</RoadSecRightTitle>
+                  <BenefitUL>
+                    <BenefitLi key={1}>Business and commercial <br /> Metaverse development.</BenefitLi>
+                    <BenefitLi key={1}>Training for companies and other users.</BenefitLi>
+                    <BenefitLi key={1}>Tracking system for shipment of <br />physical products.</BenefitLi>
+                  </BenefitUL>
+                </RoadSecCardRight>
+              </RoadSecCard>
+              <RoadSecCard>
+                <RoadSecProImg src="img/tibu.png" alt="" />
+                <RoadSecCardRight>
+                  <RoadSecRightTitle>Q3 - 2023, coming soon ⏳</RoadSecRightTitle>
+                  <BenefitUL>
+                    <BenefitLi key={1}>Creation of TOKEN and NFT.</BenefitLi>
+                    <BenefitLi key={1}>Marketing.</BenefitLi>
+                    <BenefitLi key={1}>Pre-sale token and NFT.</BenefitLi>
+                  </BenefitUL>
+                  <RoadSecRightText>{data.roadmapContent[3]}</RoadSecRightText>
+                </RoadSecCardRight>
+              </RoadSecCard>
+            </RoadmapSecLeft>
+          </RoadmapSecPart>
+          <RoadmapFirstPart mt="30px">
+            <RoadmapFirstLeft>
+              <RoadCard>
+                <RoadProImg src="img/tibu.png" alt="" />
+                <RoadCardRight>
+                  <RoadRightTitle>Q4 - 2023, coming soon ⏳</RoadRightTitle>
+                  <BenefitUL>
+                    <BenefitLi key={1}>Development of own business and <br /> commercial blockchain</BenefitLi>
+                    <BenefitLi key={1}>Development of the SharkDAO ecosystem.</BenefitLi>
+                    <BenefitLi key={1}>Enterprise adoption.</BenefitLi>
+                  </BenefitUL>
+                  <RoadRightText>{data.roadmapContent[4]}</RoadRightText>
+                </RoadCardRight>
+              </RoadCard>
+            </RoadmapFirstLeft>
+            <RoadmapFirstRightOut
+              data-aos="fade-left"
+              className="aos-init aos-animate"
+            >
+              <RoadmapFirstRight src="img/SAFE.png" alt="" />
             </RoadmapFirstRightOut>
           </RoadmapFirstPart>
         </Roadmap>

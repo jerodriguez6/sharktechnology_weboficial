@@ -47,10 +47,10 @@ const LengeContainer = () => {
         <LegenPart>
           <LegenTitle>PROJECTS</LegenTitle>
           <Swiper
-            slidesPerView={4}
+            slidesPerView={2}
             spaceBetween={30}
             freeMode={true}
-            slidesPerGroup={0}
+            slidesPerGroup={1}
             loopFillGroupWithBlank={true}
             breakpoints={{
               320: {
@@ -86,30 +86,39 @@ const LengeContainer = () => {
             <SwiperSlide>
               <LegenItem>
               <LegenImg src="img/icon_hb.jpeg" alt="" />
-                <LegenName>FarmVerse</LegenName>
+                <LegenName>FARMVERSE</LegenName>
               </LegenItem>
             </SwiperSlide>
             <SwiperSlide>
               <LegenItem>
-              <LegenImg src="img/eris.webp" alt="" />
+              <LegenImg src="img/galaxy.png" alt="" />
                 <LegenName>ERIS GALAXY</LegenName>
               </LegenItem>
             </SwiperSlide>            
             <SwiperSlide>
               <LegenItem>
-              <LegenImg src="img/CCC.png" alt="" />
-                <LegenName>CANABIS</LegenName>
+              <LegenImg src="img/CANA.jpg" alt="" />
+                <LegenName>CANNABISCOIN</LegenName>
               </LegenItem>
             </SwiperSlide>
-            {data.legenImg.map((v: any, k: number) => (
-              <SwiperSlide key={k}>
+            <SwiperSlide>
+              <LegenItem>
+              <LegenImg src="img/grass.jpg" alt="" />
+                <LegenName>GRASS ARENA</LegenName>
+              </LegenItem>
+            </SwiperSlide>
+            <SwiperSlide>
+              <LegenItem>
+              <LegenImg src="img/OBIC.png" alt="" />
+                <LegenName>ORION BLACK</LegenName>
+              </LegenItem>
+            </SwiperSlide>
+            <SwiperSlide>
                 <LegenItem>
                 <video src="img/demo.mp4" width="350" height="280" controls></video>
-                  <LegenName>COMING SOON</LegenName>
+                  <LegenName>VIDEO GAME</LegenName>
                 </LegenItem>
-              </SwiperSlide>
-            ))}
-            
+            </SwiperSlide>         
           </Swiper>
         </LegenPart>
       </LegenOut>

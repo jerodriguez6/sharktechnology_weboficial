@@ -45,7 +45,7 @@ export const MintBuyLeft = styled.div`
   position: relative;
   height: 340px;
   border-radius: 20px;
-  background: url("img/mintbunny.png") no-repeat;
+  background: url("img/SRT.jpg") no-repeat;
   background-position: center;
   background-size: 100% 100%;
   @media screen and (max-width: 430px) {

@@ -16,6 +16,8 @@ import {
 import { useMediaQuery } from "beautiful-react-hooks";
 
 
+
+
 const TitleContainer = () => {
   const isTabletMode = useMediaQuery("(max-width: 1140px)");
   const [data, setData] = useState<any>({
@@ -67,9 +69,11 @@ const TitleContainer = () => {
                 <span>COMING SOON</span>
               </SaveBunniBtnLeft>
             </Link>
+
             <a href="https://metamask.io/" target={"_blank"}>
               <SaveBunniBtnRight>CONNECT WALLET</SaveBunniBtnRight>
             </a>
+            
           </SaveBunniBtns>
         </TLeft>
         <RightOut>

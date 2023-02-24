@@ -46,6 +46,7 @@ const BenefitContainer = () => {
               <BenefitLi key={1}>MARKETPLACE</BenefitLi>
               <BenefitLi key={1}>DAPPS</BenefitLi>
               <BenefitLi key={1}>VIDEO GAME</BenefitLi>
+              <BenefitLi key={1}>REAL ESTATE TOKENIZATION</BenefitLi>
               <BenefitLi key={1}>METAVERSE</BenefitLi>
               <BenefitLi key={1}>AUTOMATION</BenefitLi>
               <BenefitLi key={1}>CONSULTANCY AND ADVICE</BenefitLi>

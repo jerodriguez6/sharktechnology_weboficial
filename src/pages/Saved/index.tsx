@@ -19,10 +19,10 @@ const SavedContainer: React.FC = () => {
     <>
       <MintPartOut>
         <MintMainOut>
-          <SaveBunnyImg src="img/savebunny.png" alt="" id="bunny" />
+          <SaveBunnyImg src="img/st.png" alt="" id="bunny" />
           <MintMain>
             <SavedTitle>
-              YoU <span>SAVED</span> THIS BUNNY!
+              YoU <span>SAVED</span> THIS SHARK!
             </SavedTitle>
             <SavedText>
               Cras vestibulum turpis ac libero rhoncus, vulputate maximus leo

@@ -15,9 +15,20 @@ export const BunniPart = styled.div`
     background-size: cover;
     position: relative;
     padding-bottom: 50px;
+    z-index: 100;
     @media screen and (max-width:850px){
         background: url('img/marea.png');
-        z-index: -3;
+        z-index: 100;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+`;
+export const FloatingWhatsApp = styled.div`
+position:absolute; z-index: 100;
+    @media screen and (max-width:850px){
+        background: url('img/marea.png');
+        z-index: 5;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -29,6 +40,7 @@ export const MountainImg = styled.img<ImgProps>`
     /* height: 500px; */
     width: 100vw;
     bottom: -200px;
+    z-index: -1;
     transform: ${(props: ImgProps) => `translate3d(0px, ${props.transform}px, 0px)`};
     /* transition: all .1s; */
     @media screen and (max-width:850px){

@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
+
 export const BenefitOut = styled.div`
-  background: url("img/more.jpg");
+  background: url("../img/more.jpg");
+  <video src="img/demo.mp4" width="350" height="280" controls></video>
   background-repeat: no-repeat;
   margin-top: -10px;
   background-size: 100% 100%;
@@ -10,6 +12,7 @@ export const BenefitOut = styled.div`
   padding: 112px 0;
   justify-content: center;
 `;
+
 
 export const Benefit = styled.div`
   width: 1440px;

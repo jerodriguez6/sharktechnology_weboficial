@@ -52,7 +52,7 @@ Object.keys(timeLeft).forEach((interval:any) => {
           </TimeItem>
           <TimeItem>
             <TimeNum>{timerComponents[2]}</TimeNum>
-            <TimeUnit>Minutes  </TimeUnit>
+            <TimeUnit>Minutes</TimeUnit>
           </TimeItem>
           <TimeItem>
             <TimeNum>{timerComponents[3]}</TimeNum>

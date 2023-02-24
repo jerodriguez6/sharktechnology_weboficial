@@ -40,10 +40,10 @@ const MintContainer: React.FC = () => {
         <MintMain>
           <MintBuyPart>
             <MintBuyLeft>
-              <MintTotalCounter>1 / 6,564</MintTotalCounter>
+              <MintTotalCounter>1 / 100</MintTotalCounter>
             </MintBuyLeft>
             <MintBuyRight>
-              <MintRightTitle>SAVE A BUNNY!</MintRightTitle>
+              <MintRightTitle>SAVE A SHARK!</MintRightTitle>
               <MintPrice>
                 {(price * mintcount).toFixed(price === 0.1 ? 1 : 2)} ETH
               </MintPrice>
@@ -64,7 +64,7 @@ const MintContainer: React.FC = () => {
           <MintValuePart>
             <MintValueItem>
               <MintTitle>Supply</MintTitle>
-              <MintValue>6,564</MintValue>
+              <MintValue>100</MintValue>
             </MintValueItem>
             <MintValueItem>
               <MintTitle>Price</MintTitle>
