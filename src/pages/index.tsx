@@ -82,11 +82,11 @@ const MainPage: React.FC = () => {
       </BunniPart>
       <StoryPart />
       <Blog />
-      <Slider />
       <BenefitPart />
       <RoadmapPart />
       <LegenPart />
       <TeamPart />
+      <Slider />
       <FAQPart />
       <SavePart />
       <Footer />

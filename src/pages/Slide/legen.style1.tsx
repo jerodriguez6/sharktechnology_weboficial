@@ -56,10 +56,10 @@ export const LegenItem = styled.div`
 `;
 export const LegenName = styled.div`
     font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
+    font-style: bold;
+    font-weight: bold;
     margin-top: 18px;
     font-size: 17px;
     line-height: 34px;
-    color: #2E1E00;
+    color: #564B37;
 `;
