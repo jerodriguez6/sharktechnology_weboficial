@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const LegenOu = styled.div`
     z-index: 1;
-    background: #fff;
+    background: #FBF8F1;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -50,7 +50,7 @@ export const LegenImg = styled.img`
 `;
 export const LegenItem = styled.div`
     padding: 12px 12px 24px;
-    background-color: #fff;
+    background-color: #FBF8F1;
     box-shadow: 12 px 12px 12px 16px -4px rgba(16, 24, 40, 0.05), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
     border-radius: 30px;
 `;
