@@ -125,6 +125,7 @@ export const SaveBunniBtnRight = styled.div`
   :hover {
     color: #ffd600;
     background-color: #2e1e00;
+    cursor: pointer;
   }
 `;
 export const SaveBunniBtns = styled.div`

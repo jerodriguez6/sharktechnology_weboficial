@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 /****site route*****/
 //  Home page
@@ -8,6 +8,8 @@ const NotFound = lazy(() => import("./pages/404"));
 const Mint = lazy(() => import("./pages/Mint"));
 const Saved = lazy(() => import("./pages/Saved"));
 const Privacy = lazy(() => import("./pages/Privacy"));
+const Blog = lazy(() => import("./pages/Blog"));
+const BlogEdit = lazy(() => import("./pages/Blog/blogEdit"));
 
 const loader = (
   <div
@@ -25,19 +27,19 @@ const loader = (
 
 const AppRouter = () => {
   return (
-    <React.Fragment>
+    <Router>
       <Suspense fallback={loader}>
-        <Router>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/privacy" component={Privacy} />
-            <Route exact path="/mint" component={Mint} />
-            <Route exact path="/saved" component={Saved} />
-            <Route path="*" component={NotFound} />
-          </Switch>
-        </Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/mint" element={<Mint />} />
+          <Route path="/saved" element={<Saved />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/editarblog/:idblog" element={<BlogEdit />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
       </Suspense>
-    </React.Fragment>
+    </Router>
   );
 };
 

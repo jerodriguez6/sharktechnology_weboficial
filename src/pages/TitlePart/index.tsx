@@ -1,6 +1,8 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import getBlockchain from "scripts/ethereum";
+
 import {
   TitlePart,
   TLeft,
@@ -14,8 +16,7 @@ import {
   SaveBunniBtnLeft,
 } from "./titlepart.style";
 import { useMediaQuery } from "beautiful-react-hooks";
-
-
+import { BsWallet } from "react-icons/bs";
 
 
 const TitleContainer = () => {
@@ -25,6 +26,35 @@ const TitleContainer = () => {
     bunnyTitle: "",
     bunnySubTitle: "",
   });
+
+  const [text, setText] = useState('CONNECT WALLET');
+
+  const [walletAdress, setWalletAdress] = useState('');
+
+  const connectWallet = async () => {
+    const { accounts } = await getBlockchain();
+    console.log(accounts);
+    const account = accounts[0];
+
+    setText(null);
+    setWalletAdress(
+      account[0] +
+      account[1] +
+      account[2] +
+      account[3] +
+      account[4] +
+      account[5] +
+      "..." +
+      account[35] +
+      account[36] +
+      account[37] +
+      account[38] +
+      account[39] +
+      account[40] +
+      account[41]
+    );
+  }
+
   useEffect(() => {
     const getData = async () => {
       const query = await axios({
@@ -55,7 +85,7 @@ const TitleContainer = () => {
         <TLeft>
           <SaveBunniText>
             <span>
-            SHARK 
+              SHARK
               {isTabletMode}
             </span>
             TECHNOLOGY
@@ -69,19 +99,15 @@ const TitleContainer = () => {
                 <span>COMING SOON</span>
               </SaveBunniBtnLeft>
             </Link>
-
-            <a href="https://metamask.io/" target={"_blank"}>
-              <SaveBunniBtnRight>CONNECT WALLET</SaveBunniBtnRight>
-            </a>
-            
+            <SaveBunniBtnRight onClick={connectWallet}>{walletAdress}{text}</SaveBunniBtnRight>
           </SaveBunniBtns>
         </TLeft>
         <RightOut>
           <TRight src="img/app.png" alt="" />
         </RightOut>
-      </TitlePart>
-    </TitlePartOut>
+      </TitlePart >
+    </TitlePartOut >
   );
-  
+
 };
 export default TitleContainer;

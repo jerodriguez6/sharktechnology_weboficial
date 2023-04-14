@@ -3,19 +3,27 @@ import styled from "styled-components";
 interface FaqFlag {
   flag: boolean;
 }
-
+export const FAQAll = styled.div`
+  width: 100vw;
+  display: flex;
+  z-index: 1;
+`;
 export const FAQOut = styled.div`
   width: 100vw;
   display: flex;
   justify-content: center;
   padding-top: 112px;
   background: #70e1dc;
+  @media screen and (min-width: 200px) {
+    z-index: 1;
+  }
 `;
 export const FAQPart = styled.div`
   display: flex;
   width: 1440px;
   justify-content: space-between;
   align-items: flex-start;
+  margin-bottom: 80px;
   @media screen and (max-width: 1480px) {
     width: 95%;
   }
@@ -32,9 +40,10 @@ export const FAQTitle = styled.div`
   line-height: 60px;
   letter-spacing: -0.02em;
   color: #0d0ae5;
-  z-index: 2;
+  z-index: 4;
   position: relative;
   ::after {
+    z-index: 3;
     content: url("img/faqline.svg");
     z-index: -1;
     position: absolute;

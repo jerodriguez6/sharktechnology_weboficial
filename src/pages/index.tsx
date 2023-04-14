@@ -16,6 +16,8 @@ import FAQPart from "./FAQPart";
 import SavePart from "./SavePart";
 
 import { BunniPart, MountainImg, GrassImg, CloudImg } from "./main.style";
+import Slider from "./Slide";
+import Blog from "./Blog";
 const MainPage: React.FC = () => {
   const isTabletMode = useMediaQuery("(max-width: 1500px)");
   const [className, setClassName] = useState("");
@@ -57,17 +59,16 @@ const MainPage: React.FC = () => {
           alt=""
           id="mountain"
         />
-        <FloatingWhatsApp 
-          className={className} 
+        <FloatingWhatsApp
+          className={className}
           phoneNumber='573175090528'
           accountName='Shark'
-          allowClickAway     
+          allowClickAway
           notification
-          notificationSound
           notificationDelay={60000}
-          darkMode    
-       />
-        
+          darkMode
+        />
+
         <GrassImg
           className={className}
           src="img/marea.png"
@@ -80,6 +81,8 @@ const MainPage: React.FC = () => {
         <TimerPart />
       </BunniPart>
       <StoryPart />
+      <Blog />
+      <Slider />
       <BenefitPart />
       <RoadmapPart />
       <LegenPart />
@@ -88,10 +91,10 @@ const MainPage: React.FC = () => {
       <SavePart />
       <Footer />
 
-  
+
 
     </>
-  
+
   );
 };
 export default MainPage;

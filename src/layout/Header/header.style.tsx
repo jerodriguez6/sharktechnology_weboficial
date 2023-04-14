@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const HeaderOut = styled.div `
+export const HeaderOut = styled.div`
     width: 100vw;
     display: flex;
     position: fixed;
@@ -32,17 +32,17 @@ export const HeaderBody = styled.div`
     }
     
 `;
-export const LogoImg = styled.img `
+export const LogoImg = styled.img`
     width: 50px;
 `;
-export const NavMenu = styled.div `
+export const NavMenu = styled.div`
     display: flex;
     gap: 40px;
     @media screen and (max-width:950px){
         display: none;
     }
 `;
-export const NavItem = styled.div `
+export const NavItem = styled.div`
     font-family: 'Luckiest Guy';
     font-style: normal;
     font-weight: 400;
@@ -80,7 +80,7 @@ export const SocialIconTwitterImg = styled.img`
     } 
 `;
 
-export const SocialItems = styled.div `
+export const SocialItems = styled.div`
     display: flex;
     gap: 24px;
     @media screen and (max-width:950px){

@@ -1,18 +1,21 @@
 import styled from "styled-components";
 
 export const TeamOut = styled.div`
+  z-index: 1;
   width: 100vw;
   padding-top: 112px;
   display: flex;
   justify-content: center;
 `;
 export const TeamPart = styled.div`
+z-index: 1;
   width: 1440px;
   @media screen and (max-width: 1480px) {
-    width: 95%;
+    width: 100%;
   }
 `;
 export const TeamTitle = styled.div`
+  margin-left: 40px;
   font-family: "Luckiest Guy";
   font-style: normal;
   font-weight: 400;
@@ -34,16 +37,23 @@ export const TeamTitle = styled.div`
 export const TeamBody = styled.div`
   display: flex;
   gap: 48px;
+  margin: 20px;
   @media screen and (max-width: 1010px) {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
   }
+  @media screen and (max-width: 1366px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
 `;
 export const TeamItem = styled.div`
   @media screen and (max-width: 1010px) {
     width: 294px;
   }
+  @media screen and (max-width: 1366px) {
+    width: 250px;
 `;
 export const TeamImg = styled.img`
    width: 250px;

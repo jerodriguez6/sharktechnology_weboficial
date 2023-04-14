@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import { Navigation, FreeMode } from "swiper";
 import {
   LegenOut,
@@ -10,7 +9,6 @@ import {
   LegenItem,
   LegenName,
 } from "./legen.style";
-import "./swiper.style.css";
 import axios from "axios";
 const LengeContainer = () => {
   const [data, setData] = useState<any>({
@@ -47,7 +45,7 @@ const LengeContainer = () => {
         <LegenPart>
           <LegenTitle>PROJECTS</LegenTitle>
           <Swiper
-            slidesPerView={2}
+            slidesPerView={4}
             spaceBetween={30}
             freeMode={true}
             slidesPerGroup={1}
@@ -79,46 +77,46 @@ const LengeContainer = () => {
           >
             <SwiperSlide>
               <LegenItem>
-              <LegenImg src="img/blumer.jfif" alt="" />
+                <LegenImg src="img/blumer.jfif" alt="" />
                 <LegenName>BLUMER</LegenName>
               </LegenItem>
             </SwiperSlide>
             <SwiperSlide>
               <LegenItem>
-              <LegenImg src="img/icon_hb.jpeg" alt="" />
+                <LegenImg src="img/icon_hb.jpeg" alt="" />
                 <LegenName>FARMVERSE</LegenName>
               </LegenItem>
             </SwiperSlide>
             <SwiperSlide>
               <LegenItem>
-              <LegenImg src="img/galaxy.png" alt="" />
+                <LegenImg src="img/galaxy.png" alt="" />
                 <LegenName>ERIS GALAXY</LegenName>
               </LegenItem>
-            </SwiperSlide>            
+            </SwiperSlide>
             <SwiperSlide>
               <LegenItem>
-              <LegenImg src="img/CANA.jpg" alt="" />
+                <LegenImg src="img/CANA.jpg" alt="" />
                 <LegenName>CANNABISCOIN</LegenName>
               </LegenItem>
             </SwiperSlide>
             <SwiperSlide>
               <LegenItem>
-              <LegenImg src="img/grass.jpg" alt="" />
+                <LegenImg src="img/grass.jpg" alt="" />
                 <LegenName>GRASS ARENA</LegenName>
               </LegenItem>
             </SwiperSlide>
             <SwiperSlide>
               <LegenItem>
-              <LegenImg src="img/OBIC.png" alt="" />
+                <LegenImg src="img/OBIC.png" alt="" />
                 <LegenName>ORION BLACK</LegenName>
               </LegenItem>
             </SwiperSlide>
             <SwiperSlide>
-                <LegenItem>
+              <LegenItem>
                 <video src="img/demo.mp4" width="350" height="280" controls></video>
-                  <LegenName>VIDEO GAME</LegenName>
-                </LegenItem>
-            </SwiperSlide>         
+                <LegenName>VIDEO GAME</LegenName>
+              </LegenItem>
+            </SwiperSlide>
           </Swiper>
         </LegenPart>
       </LegenOut>

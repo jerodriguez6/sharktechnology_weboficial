@@ -1,8 +1,28 @@
 import styled from "styled-components";
 
+export const ParticlesWrapper = styled.div`
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+`;
 
+export const ContentWrapper = styled.div`
+  position: relative;
+  z-index: 2;
+`;
+
+export const Benefitcontainer = styled.div`
+  /* fallback for old browsers */
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+`;
 export const BenefitOut = styled.div`
-  background: url("../img/more.jpg");
+  
   <video src="img/demo.mp4" width="350" height="280" controls></video>
   background-repeat: no-repeat;
   margin-top: -10px;
@@ -56,7 +76,7 @@ export const BenefitUL = styled.ul`
 `;
 
 export const BenefitLi = styled.li`
-  width: 602px;
+  width: 400px;
   ::marker {
     color: #ffd600;
     width: 12px;

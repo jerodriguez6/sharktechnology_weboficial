@@ -15,7 +15,7 @@ export const TimerTitle = styled.div`
     width: 95%;
     @media screen and (max-width:500px){
         width: 100%;
-        /* margin: 0 10px; */
+        margin: 0 10px;
         margin-bottom: 33px;
     }
 `;

@@ -6,7 +6,6 @@ import AppRouter from './router'
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-
 import "assets/css/App.css"
 
 
@@ -21,3 +20,4 @@ function App() {
 }
 
 export default App;
+

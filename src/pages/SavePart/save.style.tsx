@@ -1,6 +1,12 @@
 import styled from "styled-components";
 
+export const SaveAll = styled.div`
+    width: 100vw;
+    display: flex;
+    z-index: 1;
+`;
 export const SaveOut = styled.div`
+    z-index: 2;
     background: url('img/stor.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -9,9 +15,10 @@ export const SaveOut = styled.div`
     width: 100vw;
     display: flex;
     justify-content: center;
-    margin-top: 160px;
+    margin-top: 10px;
 `;
 export const SavePart = styled.div`
+    z-index: 1;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -1,19 +1,35 @@
 import styled from "styled-components";
-
-export const RoadMapOut = styled.div`
+export const RoadMapContenedor = styled.div`
+  z-index: 1;
   width: 100vw;
   display: flex;
+  margin-right: 15px;
+  padding-top: 112px;
+  padding-bottom: 50px;
+  justify-content: center;
+  background: #fff;
+`;
+export const RoadMapOut = styled.div`
+  z-index: 1;
+  width: 100vw;
+  display: flex;
+  margin-right: 15px;
   padding-top: 112px;
   justify-content: center;
-  background: #ffffff;
+  background: #fff;
 `;
 export const Roadmap = styled.div`
-  width: 1440px;
-  @media screen and (max-width: 1480px) {
-    width: 95%;
+  margin-left: 20px;
+  width: 90%;
+  @media screen and (max-width: 1533px) {
+    width: 90%;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 100%;
   }
 `;
 export const RoadmapTitle = styled.div`
+  margin-left: 30px;
   font-family: "Luckiest Guy";
   font-style: normal;
   font-weight: 400;
@@ -25,17 +41,23 @@ export const RoadmapTitle = styled.div`
   position: relative;
   ::after {
     content: url("img/roadmapline.svg");
-    z-index: -1;
     position: absolute;
     left: 0;
     bottom: -13px;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 100%;
+    margin left: 100px;
   }
 `;
 export const RoadmapFirstLeft = styled.div`
   display: flex;
   flex-direction: column;
   gap: 20px;
-  @media screen and (max-width: 1480px) {
+  @media screen and (min-width: 1534px) {
+    width: 90%;
+  }
+  @media screen and (min-width: 1920px) {
     width: 100%;
   }
 `;
@@ -46,11 +68,11 @@ export const RoadmapFirstPart = styled.div<{ mt?: any }>`
 `;
 export const RoadCard = styled.div`
   display: flex;
-  padding: 52px 0 52px 74px;
   background: #00adff;
-  width: 980px;
+  width: 500px;
   border-radius: 30px;
-  @media screen and (max-width: 1480px) {
+
+  @media screen and (min-width: 100px) {
     width: 100%;
   }
   @media screen and (max-width: 1300px) {
@@ -59,7 +81,8 @@ export const RoadCard = styled.div`
   @media screen and (max-width: 1100px) {
     padding: 30px 0 20px 0;
   }
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 850px) {
+    margin-right: 20px;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -73,7 +96,7 @@ export const RoadProImg = styled.img`
   @media screen and (max-width: 1100px) {
     margin-left: 20px;
   }
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 850px) {
     width: 162px;
     margin-right: 0;
     margin-left: 0;
@@ -87,7 +110,7 @@ export const RoadCardRight = styled.div`
   @media screen and (max-width: 1100px) {
     margin-right: 20px;
   }
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 850px) {
     margin-right: 0;
     width: 95%;
   }
@@ -113,8 +136,8 @@ export const RoadRightTitle = styled.div`
   }
 `;
 export const RoadmapFirstRight = styled.img`
+  display: block;
   width: 420px;
-  margin-left: -30px;
   animation: rotate 0.5s infinite;
   @keyframes rotate {
     0% {
@@ -130,6 +153,12 @@ export const RoadmapFirstRight = styled.img`
   @media screen and (max-width: 1100px) {
     display: none;
   }
+  @media screen and (max-width: 1534px) {
+    display: none;
+  }
+  @media screen and (min-width: 1920px) {
+    display: flex;
+  }
 `;
 export const RoadmapSecPart = styled.div`
   display: flex;
@@ -141,12 +170,11 @@ export const RoadmapSecLeft = styled.div`
   display: flex;
   flex-direction: column;
   gap: 20px;
-  @media screen and (max-width: 1480px) {
-    width: 100%;
+  @media screen and (max-width: 1534px) {
+    width: 90%;
   }
 `;
 export const RoadmapSecRight = styled.img`
-  margin-left: -50px;
   width: 400px;
   animation: rotate 0.5s infinite;
   @keyframes rotate {
@@ -160,7 +188,7 @@ export const RoadmapSecRight = styled.img`
       transform: rotate(0deg);
     }
   }
-  @media screen and (max-width: 1480px) {
+  @media screen and (max-width: 1534px) {
     margin-right: 30px;
     margin-left: 0;
   }
@@ -170,6 +198,9 @@ export const RoadmapSecRight = styled.img`
   @media screen and (max-width: 1100px) {
     display: none;
   }
+  @media screen and (max-width: 1534px) {
+    display: none;
+  }
 `;
 export const RoadSecCard = styled.div`
   display: flex;
@@ -177,11 +208,11 @@ export const RoadSecCard = styled.div`
   background: #00adff;
   width: 980px;
   border-radius: 30px;
-  @media screen and (max-width: 1480px) {
+  @media screen and (max-width: 1534px) {
     padding: 52px 0;
     width: 100%;
   }
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 850px) {
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -189,11 +220,11 @@ export const RoadSecCard = styled.div`
 `;
 export const RoadSecProImg = styled.img`
   margin-right: 74px;
-  @media screen and (max-width: 1480px) {
+  @media screen and (max-width: 1534px) {
     margin-right: 30px;
     margin-left: 20px;
   }
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 850px) {
     width: 162px;
     margin-left: 0;
     margin-right: 0;
@@ -201,11 +232,11 @@ export const RoadSecProImg = styled.img`
 `;
 export const RoadSecCardRight = styled.div`
   width: 504px;
-  @media screen and (max-width: 1480px) {
+  @media screen and (max-width: 1534px) {
     width: 100%;
     margin-right: 20px;
   }
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 850px) {
     margin-right: 0;
     width: 95%;
   }
@@ -227,4 +258,31 @@ export const RoadSecRightText = styled.div`
   line-height: 28px;
   color: #625744;
 `;
+export const RoadVideoMid = styled.div`
+  display: flex;
+  width: 70%;
+  margin: auto;
+  height: 500px;
+  margin-bottom: 100px;
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+    height: 500px;
+  }
+  @media screen and (min-width: 801px) {
+    width: 80%;
+    height: 500px;
+  }
+  @media screen and (min-width: 1500px) {
+    width: 100%;
+    height: 800px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    margin: auto;
+    width: 100%;
+    height: 800px;
+  }
+`;
+
 export const RoadmapFirstRightOut = styled.div``;

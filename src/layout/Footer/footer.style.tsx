@@ -1,18 +1,23 @@
 import styled from "styled-components";
 
+export const FooterAll = styled.div`
+    width: 100vw;
+    display: flex;
+    z-index: -1;
+`;
+
 export const FooterOut = styled.div`
     width: 100vw;
     display: flex;
     justify-content: center;
     background: url('img/more.jpg');
-    z-index: -1;
     background-repeat: no-repeat;
     padding: 48px 0 30px 0;
     background-position: center;
     background-size: 100% 100%;
     margin-top: -10px;
-    @media screen and (max-width:550px){
-        z-index: -1;
+    @media screen and (min-width:550px){
+        z-index: 199;
        
     }
 `;
@@ -25,6 +30,7 @@ export const SocialItems = styled.div`
     gap: 24px;
 `;
 export const FooterPart = styled.div`
+    z-index: 1;
     width: 1440px;
     @media screen and (max-width:1480px){
         width: 95%;

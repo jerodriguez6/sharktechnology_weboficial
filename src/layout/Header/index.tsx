@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import { RiBarChartHorizontalFill } from "react-icons/ri";
 import {
   TwitterSVG,
-  DiscordSVG,
-  OpenseaSVG,
+  FacebookSVG,
   InstagramSVG,
+  LinkedinSVG
 } from "components/SVG";
 import { Link } from "react-router-dom";
 import {
@@ -71,17 +71,17 @@ const HeaderContainer = () => {
               <InstagramSVG fill="#000" />
             </SocialIcon>
           </a>
-          <a href="https://discord.gg/Ab433VcrVU" target={"_blank"}>
+          <a href="https://www.facebook.com/sharktechnologyengineers" target={"_blank"}>
             <SocialIcon>
-              <DiscordSVG fill="#000" />
+              <FacebookSVG fill="#000" />
             </SocialIcon>
           </a>
           <a
-            href="https://opensea.io/collection/save-the-bunnies-1"
+            href="https://www.linkedin.com/company/sharktechnology-engineers/"
             target={"_blank"}
           >
             <SocialIcon>
-              <OpenseaSVG fill="#000" />
+              <LinkedinSVG fill="#000" />
             </SocialIcon>
           </a>
         </SocialItems>
@@ -122,17 +122,17 @@ const HeaderContainer = () => {
                   <InstagramSVG fill="#000" />
                 </SocialIcon>
               </a>
-              <a href="https://discord.gg/Ab433VcrVU" target={"_blank"}>
+              <a href="https://www.facebook.com/sharktechnologyengineers" target={"_blank"}>
                 <SocialIcon>
-                  <DiscordSVG fill="#000" />
+                  <FacebookSVG fill="#000" />
                 </SocialIcon>
               </a>
               <a
-                href="https://opensea.io/collection/save-the-bunnies-1"
+                href="https://www.linkedin.com/company/sharktechnology-engineers/"
                 target={"_blank"}
               >
                 <SocialIcon>
-                  <OpenseaSVG fill="#000" />
+                  <LinkedinSVG fill="#000" />
                 </SocialIcon>
               </a>
             </ResSocialItems>

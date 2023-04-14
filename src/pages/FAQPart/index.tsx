@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import {
+  FAQAll,
   FAQOut,
   FAQPart,
   FAQLeft,
@@ -49,10 +50,11 @@ const MainPage = () => {
   };
   return (
     <>
-      <FAQOut id="faq">
-        <FAQPart>
-          <FAQLeft>
-            <FAQTitle>FAQ</FAQTitle>
+      <FAQAll>
+        <FAQOut id="faq">
+          <FAQPart>
+            <FAQLeft>
+              <FAQTitle>FAQ</FAQTitle>
               <FAQList>
                 <FAQItem onClick={() => OpenFAQ(2)} key={2}>
                   <FAQMain>
@@ -207,11 +209,12 @@ const MainPage = () => {
                     />
                   )}
                 </FAQItem>
-            </FAQList>
-          </FAQLeft>
-          <FAQRight src="img/carrot.png" alt="" />
-        </FAQPart>
-      </FAQOut>
+              </FAQList>
+            </FAQLeft>
+            <FAQRight src="img/carrot.png" alt="" />
+          </FAQPart>
+        </FAQOut>
+      </FAQAll>
     </>
   );
 };
