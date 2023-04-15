@@ -3,12 +3,12 @@ import styled from "styled-components";
 export const TeamOut = styled.div`
   z-index: 1;
   width: 100vw;
-  padding-top: 112px;
+  padding-top: 10px;
   display: flex;
   justify-content: center;
 `;
 export const TeamPart = styled.div`
-z-index: 1;
+  z-index: 1;
   width: 1440px;
   @media screen and (max-width: 1480px) {
     width: 100%;
