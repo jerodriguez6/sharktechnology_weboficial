@@ -46,7 +46,7 @@ const StoryContainer = () => {
     <>
       <StoryPartOut id="story">
         <StoryPart>
-          <OurStory>ABOUT US</OurStory>
+          <OurStory>ABOUT US </OurStory>
           <MainStory>
             <StoryLeft>
               <StoryTitle>We are a consulting company and developer of Blockchain technology. We help startups and companies from different industries to integrate Blockchain technologies,.</StoryTitle>
