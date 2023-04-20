@@ -59,6 +59,9 @@ const HeaderContainer = () => {
           <a href="#faq">
             <NavItem>FAQ</NavItem>
           </a>
+          <Link to="/blog">
+            <NavItem>NEWS</NavItem>
+          </Link>
         </NavMenu>
         <SocialItems>
           <a href="https://twitter.com/SHARKTECHNOLOG2" target={"_blank"}>
@@ -107,6 +110,9 @@ const HeaderContainer = () => {
               <a href="#faq">
                 <NavItem>FAQ</NavItem>
               </a>
+              <Link to="/blog">
+                <NavItem>NEWS</NavItem>
+              </Link>
             </ResNavMenu>
             <ResSocialItems>
               <a href="https://twitter.com/SHARKTECHNOLOG2" target={"_blank"}>

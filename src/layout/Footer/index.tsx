@@ -27,6 +27,9 @@ const FooterContainer = () => {
                             <a href='#faq'>
                                 <FooterItem>FAQ</FooterItem>
                             </a>
+                            <Link to="/blog">
+                                <FooterItem>NEWS</FooterItem>
+                            </Link>
                         </FooterNav>
 
                         <SocialItems>
