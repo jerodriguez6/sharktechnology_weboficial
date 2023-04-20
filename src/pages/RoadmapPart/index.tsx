@@ -159,6 +159,7 @@ const MainPage = () => {
                     <RoadRightText>{data.roadmapContent[4]}</RoadRightText>
                   </RoadCardRight>
                 </RoadCard>
+                {/* ------------quard part---------------------- */}
                 <RoadCard>
                   <RoadProImg src="img/tibu.png" alt="" />
                   <RoadCardRight>
@@ -192,14 +193,12 @@ const MainPage = () => {
                 <RoadSecCard>
                   <RoadSecProImg src="img/tibu.png" alt="" />
                   <RoadSecCardRight>
-                    <RoadSecRightTitle>Q2 – 2023, COMING SOONn ⏳</RoadSecRightTitle>
+                    <RoadSecRightTitle>Q2 – 2023, COMING SOON ⏳</RoadSecRightTitle>
                     <BenefitUL>
                       <BenefitLi key={1}>Swap development</BenefitLi>
                       <BenefitLi key={1}>Development of DAPP MINT, NFT UTILITY</BenefitLi>
                       <BenefitLi key={1}>TSeed capital search formulation</BenefitLi>
                       <BenefitLi key={1}>Development of Wallet POS.</BenefitLi>
-                      <BenefitLi key={1}>Development of a blockchain traceability system for pharmacies</BenefitLi>
-                      <BenefitLi key={1}>Development of perfumery NFT mining site.</BenefitLi>
                     </BenefitUL>
                   </RoadSecCardRight>
                 </RoadSecCard>
@@ -224,19 +223,15 @@ const MainPage = () => {
                 <RoadCard>
                   <RoadProImg src="img/tibu.png" alt="" />
                   <RoadCardRight>
-                    <RoadRightTitle>Q4 – 2023, COMING SOON ⏳</RoadRightTitle>
+                    <RoadRightTitle>Q4 – 2023,COMING SOON⏳</RoadRightTitle>
                     <BenefitUL>
                       <BenefitLi key={1}>Launch platform protocol for new projects</BenefitLi>
                       <BenefitLi key={1}>Development of a crypto wallet.</BenefitLi>
                       <BenefitLi key={1}>Development of a crypto Trading Bot.</BenefitLi>
-                      <BenefitLi key={1}>Development of a tracking system based on the blockchain, for
-                        sending end-to-end physical products..</BenefitLi>
+                      <BenefitLi key={1}>Development of a tracking system based on the blockchain</BenefitLi>
                       <BenefitLi key={1}>Agreement with universities for training in Bockchain.</BenefitLi>
-                      <BenefitLi key={1}>Pre-sale token and NFT</BenefitLi>
-                      <BenefitLi key={1}>Development of the SharkDAO ecosystem.</BenefitLi>
-                      <BenefitLi key={1}>Enterprise adoptio</BenefitLi>
                     </BenefitUL>
-                    <RoadRightText>{data.roadmapContent[4]}</RoadRightText>
+                    <RoadRightText>{data.roadmapContent[6]}</RoadRightText>
                   </RoadCardRight>
                 </RoadCard>
               </RoadmapFirstLeft>

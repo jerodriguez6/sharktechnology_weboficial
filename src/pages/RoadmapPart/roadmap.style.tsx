@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 export const RoadMapContenedor = styled.div`
   z-index: 1;
   width: 100vw;
@@ -37,15 +38,17 @@ export const RoadmapTitle = styled.div`
   line-height: 60px;
   letter-spacing: -0.02em;
   color: #0d0ae5;
-  z-index: 2;
+  z-index: 1;
   position: relative;
   ::after {
     content: url("img/roadmapline.svg");
     position: absolute;
+    z-index: -1;
     left: 0;
     bottom: -13px;
   }
   @media screen and (min-width: 1920px) {
+    z-index: -1;
     width: 100%;
     margin left: 100px;
   }
@@ -104,6 +107,7 @@ export const RoadProImg = styled.img`
 `;
 export const RoadCardRight = styled.div`
   width: 504px;
+  padding: 52px 0 52px 0px;
   @media screen and (max-width: 1300px) {
     width: 100%;
   }

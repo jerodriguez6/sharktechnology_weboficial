@@ -88,9 +88,6 @@ const MainPage: React.FC = () => {
       <FAQPart />
       <SavePart />
       <Footer />
-
-
-
     </>
 
   );
