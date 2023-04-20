@@ -17,7 +17,6 @@ import SavePart from "./SavePart";
 
 import { BunniPart, MountainImg, GrassImg, CloudImg } from "./main.style";
 import Slider from "./Slide";
-import Blog from "./Blog";
 const MainPage: React.FC = () => {
   const isTabletMode = useMediaQuery("(max-width: 1500px)");
   const [className, setClassName] = useState("");
@@ -81,7 +80,6 @@ const MainPage: React.FC = () => {
         <TimerPart />
       </BunniPart>
       <StoryPart />
-      <Blog />
       <BenefitPart />
       <RoadmapPart />
       <LegenPart />

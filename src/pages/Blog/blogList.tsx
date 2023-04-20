@@ -9,11 +9,9 @@ function BlogList() {
 
     useEffect(() => {
         axios.get(`/api/esquema/listadoblog?page=${page}`).then(res => {
-            console.log(res);
             setDataBlog(res.data.docs);
             setTotalPages(res.data.totalPages);
         }).catch(err => {
-            console.log(err);
         })
     }, [page])
 

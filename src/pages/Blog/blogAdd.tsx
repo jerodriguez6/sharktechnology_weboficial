@@ -29,7 +29,6 @@ function BlogAdd() {
             if (result.isConfirmed) {
                 axios.post("/api/esquema/blogapp", Esquema)
                     .then((res) => {
-                        console.log(res.data)
                         Swal.fire({
                             title: "Success",
                             text: "Your file has been added.",
@@ -39,7 +38,6 @@ function BlogAdd() {
                         });
                     })
                     .catch((err) => {
-                        console.log(err);
                         Swal.fire({
                             title: "Error",
                             text: "An error occurred while adding your file.",

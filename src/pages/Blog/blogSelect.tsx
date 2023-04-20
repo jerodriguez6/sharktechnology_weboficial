@@ -19,7 +19,6 @@ function BlogSelect({ esquema }) {
             if (result.isConfirmed) {
                 axios.post('/api/esquema/deleteBlog', { idblog: idblog })
                     .then(res => {
-                        console.log(res.data)
                         Swal.fire(
                             'Deleted!',
                             'Your file has been deleted.',
@@ -28,7 +27,6 @@ function BlogSelect({ esquema }) {
                             navigate(0);
                         });
                     }).catch((err) => {
-                        console.log(err);
                         Swal.fire({
                             title: "Error",
                             text: "An error occurred while adding your file.",

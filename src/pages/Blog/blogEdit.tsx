@@ -14,7 +14,6 @@ function BlogEdit() {
 
     useEffect(() => {
         axios.post('/api/esquema/obtenerdatablog', { idblog: params.idblog }).then(res => {
-            console.log(res.data[0])
             const dataBlog = res.data[0]
             setTilte(dataBlog.titlie)
             setPlot(dataBlog.plot)
@@ -41,7 +40,6 @@ function BlogEdit() {
             if (result.isConfirmed) {
                 axios.post('/api/esquema/updateBlog', updateBlog)
                     .then(res => {
-                        console.log(res.data)
                         Swal.fire({
                             title: '¡Updated blog!',
                             icon: 'success',
@@ -50,7 +48,6 @@ function BlogEdit() {
                             navigate("/blog");
                         });
                     }).catch((err) => {
-                        console.log(err);
                         Swal.fire({
                             title: "Error",
                             text: "An error occurred while adding your file.",
