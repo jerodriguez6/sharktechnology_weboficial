@@ -59,7 +59,7 @@ const HeaderContainer = () => {
           <a href="#faq">
             <NavItem>FAQ</NavItem>
           </a>
-          <Link to="/login">
+          <Link to="/register">
             <NavItem>NEWS</NavItem>
           </Link>
         </NavMenu>
