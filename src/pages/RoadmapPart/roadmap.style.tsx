@@ -107,7 +107,7 @@ export const RoadProImg = styled.img`
 `;
 export const RoadCardRight = styled.div`
   width: 504px;
-  padding: 52px 0 52px 0px;
+  padding: 40px 0 40px 0px;
   @media screen and (max-width: 1300px) {
     width: 100%;
   }

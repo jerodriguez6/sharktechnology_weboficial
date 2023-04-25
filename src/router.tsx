@@ -1,3 +1,5 @@
+import Login from "pages/Login/login";
+import Register from "pages/Login/register";
 import React, { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -36,6 +38,8 @@ const AppRouter = () => {
           <Route path="/saved" element={<Saved />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/editarblog/:idblog" element={<BlogEdit />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
