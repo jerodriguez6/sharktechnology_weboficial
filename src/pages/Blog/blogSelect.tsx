@@ -1,8 +1,49 @@
 import axios from 'axios';
 import { Link, useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
+import jwt_decode from "jwt-decode";
+import { useEffect, useState } from 'react';
+
+interface DecodedToken {
+    _id: string;
+    role: string;
+    iat: number;
+    exp: number;
+}
 
 function BlogSelect({ esquema }) {
+    const [isAdmin, setIsAdmin] = useState(false);
+    useEffect(() => {
+
+        function checkAdminStatus() {
+            const token = localStorage.getItem('token');
+            if (token) {
+                try {
+                    const decoded = jwt_decode(token) as DecodedToken;
+                    console.log('Decoded token:', decoded);
+                    if (decoded.role === 'admin') {
+                        setIsAdmin(true);
+                        return;
+                    }
+                } catch (err) {
+                    console.error('Error decoding the token:', err);
+                }
+            }
+            setIsAdmin(false);
+        }
+
+        checkAdminStatus();
+
+        const storageListener = () => {
+            checkAdminStatus();
+        };
+
+        window.addEventListener('storage', storageListener);
+
+        return () => {
+            window.removeEventListener('storage', storageListener);
+        };
+    }, []);
 
     const navigate = useNavigate();
 
@@ -49,9 +90,22 @@ function BlogSelect({ esquema }) {
                         <li className='list-group-item'>{esquema.plot}</li>
                     </ul>
                     <div className='text-center justify-content-center align-items-center'>
-                        <Link to={`/editarblog/${esquema.idblog}`}><button className='btn btn-success mt-3 mb-3'>Editar</button></Link>
+                        {isAdmin && (
+                            <Link to={`/editarblog/${esquema.idblog}`}>
+                                <button className='btn btn-success mt-3 mb-3'>Editar</button>
+                            </Link>
+                        )}
                         &nbsp;
-                        <button className='btn btn-danger mt-3 mb-3' onClick={() => { deleteBlog(esquema.idblog) }}>Borrar</button>
+                        {isAdmin && (
+                            <button
+                                className='btn btn-danger mt-3 mb-3'
+                                onClick={() => {
+                                    deleteBlog(esquema.idblog);
+                                }}
+                            >
+                                Borrar
+                            </button>
+                        )}
                     </div>
                 </div>
             </div>

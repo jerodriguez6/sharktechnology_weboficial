@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const navigate = useNavigate();
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -13,9 +14,15 @@ const Login = () => {
                 email,
                 password
             };
-            await axios.post('/logg/login', Login);
+            const response = await axios.post('/logg/login', Login);
+            if (response.data.success) {
+                localStorage.setItem('token', response.data.token);
+                navigate('/blog');
+            } else {
+                // Manejar errores de inicio de sesión
+            }
         } catch (err) {
-            console.error(err.data);
+            console.error(err);
         }
     };
 
@@ -45,7 +52,9 @@ const Login = () => {
                         required
                     />
                 </div>
-                <Link to="/blog" className="btn btn-primary">Login</Link>
+                <button type="submit" className="btn btn-primary">
+                    Login
+                </button>
             </form>
         </div>
     );

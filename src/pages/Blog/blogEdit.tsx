@@ -2,6 +2,14 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom"
 import Swal from 'sweetalert2'
+import jwt_decode from "jwt-decode";
+
+interface DecodedToken {
+    _id: string;
+    role: string;
+    iat: number;
+    exp: number;
+}
 
 function BlogEdit() {
 
@@ -9,8 +17,23 @@ function BlogEdit() {
     //Hooks
     const [titlie, setTilte] = useState('')
     const [plot, setPlot] = useState('')
+    const [isAdmin, setIsAdmin] = useState(false);
 
     const params = useParams();
+
+    useEffect(() => {
+        const token = localStorage.getItem("token");
+        if (token) {
+            const decoded = jwt_decode(token) as DecodedToken;
+            if (decoded.role === "admin") {
+                setIsAdmin(true);
+            } else {
+                navigate("/");
+            }
+        } else {
+            navigate("/");
+        }
+    }, [navigate]);
 
     useEffect(() => {
         axios.post('/api/esquema/obtenerdatablog', { idblog: params.idblog }).then(res => {
@@ -58,26 +81,29 @@ function BlogEdit() {
         });
     }
 
-
-    return (
-        <div className="container">
-            <div className="row ">
-                <h1 className="mt-4 text-center"> Añadir Blog</h1>
-            </div>
-            <div className="row">
-                <div className="mb-3">
-                    <label className="form-label" htmlFor="title">Titulo</label>
-                    <input className="form-control" type="text" value={titlie} onChange={(e) => { setTilte(e.target.value) }} />
+    if (isAdmin) {
+        return (
+            <div className="container">
+                <div className="row ">
+                    <h1 className="mt-4 text-center"> Añadir Blog</h1>
                 </div>
+                <div className="row">
+                    <div className="mb-3">
+                        <label className="form-label" htmlFor="title">Titulo</label>
+                        <input className="form-control" type="text" value={titlie} onChange={(e) => { setTilte(e.target.value) }} />
+                    </div>
 
-                <div className="mb-3">
-                    <label className="form-label" htmlFor="plot">Descripcion</label>
-                    <input className="form-control" type="text" value={plot} onChange={(e) => { setPlot(e.target.value) }} />
+                    <div className="mb-3">
+                        <label className="form-label" htmlFor="plot">Descripcion</label>
+                        <input className="form-control" type="text" value={plot} onChange={(e) => { setPlot(e.target.value) }} />
+                    </div>
+                    <button onClick={editBlog} className="btn btn-success">Editar Blog</button>
                 </div>
-                <button onClick={editBlog} className="btn btn-success">Editar Blog</button>
             </div>
-        </div>
-    )
+        )
+    } else {
+        return null;
+    }
 }
 
 export default BlogEdit;
