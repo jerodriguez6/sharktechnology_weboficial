@@ -3,7 +3,10 @@ import styled from "styled-components";
 interface ImgProps {
     transform: number
 }
-
+export const ContainerPart = styled.div`
+    width: 100%;
+    overflow-x: hidden;
+`;
 export const BunniPart = styled.div`
     width: 100%;
     display: flex;

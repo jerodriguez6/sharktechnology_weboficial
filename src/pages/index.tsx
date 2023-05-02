@@ -15,7 +15,7 @@ import TeamPart from "./TeamPart";
 import FAQPart from "./FAQPart";
 import SavePart from "./SavePart";
 
-import { BunniPart, MountainImg, GrassImg, CloudImg } from "./main.style";
+import { BunniPart, MountainImg, GrassImg, CloudImg, ContainerPart } from "./main.style";
 import Slider from "./Slide";
 const MainPage: React.FC = () => {
   const isTabletMode = useMediaQuery("(max-width: 1500px)");
@@ -50,44 +50,46 @@ const MainPage: React.FC = () => {
   }, []);
   return (
     <>
-      <BunniPart>
-        <MountainImg
-          className={className}
-          src={isTabletMode ? "img/ola.png" : "img/marea.png"}
-          transform={backscrollstate}
-          alt=""
-          id="mountain"
-        />
-        <FloatingWhatsApp
-          className={className}
-          phoneNumber='573175090528'
-          accountName='Shark'
-          allowClickAway
-          notification
-          notificationDelay={60000}
-          darkMode
-        />
+      <ContainerPart>
+        <BunniPart>
+          <MountainImg
+            className={className}
+            src={isTabletMode ? "img/ola.png" : "img/marea.png"}
+            transform={backscrollstate}
+            alt=""
+            id="mountain"
+          />
+          <FloatingWhatsApp
+            className={className}
+            phoneNumber='573175090528'
+            accountName='Shark'
+            allowClickAway
+            notification
+            notificationDelay={60000}
+            darkMode
+          />
 
-        <GrassImg
-          className={className}
-          src="img/marea.png"
-          alt=""
-          id="grass"
-        />
-        <CloudImg className={className} src="img/tibu.png" alt="" id="cloud" />
-        <Header />
-        <TitlePart />
-        <TimerPart />
-      </BunniPart>
-      <StoryPart />
-      <BenefitPart />
-      <RoadmapPart />
-      <LegenPart />
-      <TeamPart />
-      <Slider />
-      <FAQPart />
-      <SavePart />
-      <Footer />
+          <GrassImg
+            className={className}
+            src="img/marea.png"
+            alt=""
+            id="grass"
+          />
+          <CloudImg className={className} src="img/tibu.png" alt="" id="cloud" />
+          <Header />
+          <TitlePart />
+          <TimerPart />
+        </BunniPart>
+        <StoryPart />
+        <BenefitPart />
+        <RoadmapPart />
+        <LegenPart />
+        <TeamPart />
+        <Slider />
+        <FAQPart />
+        <SavePart />
+        <Footer />
+      </ContainerPart>
     </>
 
   );
