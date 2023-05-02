@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const FooterAll = styled.div`
-    width: 100vw;
+    width: 100%;
     display: flex;
     z-index: -1;
 `;
 
 export const FooterOut = styled.div`
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     background: url('img/more.jpg');

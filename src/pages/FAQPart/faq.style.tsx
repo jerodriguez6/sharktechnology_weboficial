@@ -4,12 +4,12 @@ interface FaqFlag {
   flag: boolean;
 }
 export const FAQAll = styled.div`
-  width: 100vw;
+  width: 100%;
   display: flex;
   z-index: 1;
 `;
 export const FAQOut = styled.div`
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   padding-top: 112px;

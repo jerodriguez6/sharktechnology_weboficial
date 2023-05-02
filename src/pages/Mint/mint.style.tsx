@@ -5,7 +5,7 @@ export const MintPartOut = styled.div`
   z-index: -1;
   background-position: center;
   background-size: 100% 100%;
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   display: flex;
   align-items: center;

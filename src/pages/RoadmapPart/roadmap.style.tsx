@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const RoadMapContenedor = styled.div`
   z-index: 1;
-  width: 100vw;
+  width: 100%;
   display: flex;
   margin-right: 15px;
   padding-top: 112px;
@@ -12,7 +12,7 @@ export const RoadMapContenedor = styled.div`
 `;
 export const RoadMapOut = styled.div`
   z-index: 1;
-  width: 100vw;
+  width: 100%;
   display: flex;
   margin-right: 15px;
   padding-top: 112px;

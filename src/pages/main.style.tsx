@@ -5,7 +5,7 @@ interface ImgProps {
 }
 
 export const BunniPart = styled.div`
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -23,6 +23,13 @@ export const BunniPart = styled.div`
         background-position: center;
         background-size: cover;
     }
+    @media screen and (max-width: 600px) {
+        // Aquí puedes agregar tus estilos para max-width: 600px
+        background: url('img/small-marea.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
 `;
 export const FloatingWhatsApp = styled.div`
 position:absolute; z-index: 100;
@@ -33,12 +40,20 @@ position:absolute; z-index: 100;
         background-position: center;
         background-size: cover;
     }
+    @media screen and (max-width: 600px) {
+        // Estilos para max-width: 600px
+        margin-left: 150px;
+        background: url('img/small-marea.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
 `;
 export const MountainImg = styled.img<ImgProps>`
     position: absolute;
     left: 0;
     /* height: 500px; */
-    width: 100vw;
+    width: 100%;
     bottom: -200px;
     z-index: -1;
     transform: ${(props: ImgProps) => `translate3d(0px, ${props.transform}px, 0px)`};
@@ -56,7 +71,7 @@ export const GrassImg = styled.img`
     width: 100%;
     bottom: -200px;
     @media screen and (max-width:850px){
-        display: none;
+        display: flex;
     }
 `;
 export const CloudImg = styled.img`
@@ -64,6 +79,6 @@ export const CloudImg = styled.img`
     top: 500px;
     /*transition: all 1s;*/
     @media screen and (max-width:850px){
-        display: none;
+        display: flex;
     }
 `;
