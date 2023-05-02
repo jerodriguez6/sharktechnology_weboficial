@@ -9,7 +9,7 @@ export const StoryPartOut = styled.div`
   position: relative;
   padding: 112px 0;
   display: flex;
-  width: 100vw;
+  width: 100%;
   justify-content: center;
 `;
 export const StoryPart = styled.div`

@@ -30,9 +30,17 @@ export const BunniPart = styled.div`
         background-position: center;
         background-size: cover;
       }
+    @media screen and (max-width: 470px) {
+        background: url('img/xs-marea.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
 `;
+
 export const FloatingWhatsApp = styled.div`
-position:absolute; z-index: 100;
+    position:absolute; 
+    z-index: 100;
     @media screen and (max-width:850px){
         margin-left: 200px;
         background: url('img/marea.png');
@@ -48,7 +56,15 @@ position:absolute; z-index: 100;
         background-position: center;
         background-size: cover;
       }
+    @media screen and (max-width: 470px) {
+        margin-left: 100px;
+        background: url('img/xs-marea.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
 `;
+
 export const MountainImg = styled.img<ImgProps>`
     position: absolute;
     left: 0;
@@ -62,6 +78,7 @@ export const MountainImg = styled.img<ImgProps>`
         display: none;
     }
 `;
+
 export const GrassImg = styled.img`
     position: absolute;
     left: 0;
@@ -74,6 +91,7 @@ export const GrassImg = styled.img`
         display: flex;
     }
 `;
+
 export const CloudImg = styled.img`
     position: absolute;
     top: 500px;
@@ -82,3 +100,4 @@ export const CloudImg = styled.img`
         display: flex;
     }
 `;
+

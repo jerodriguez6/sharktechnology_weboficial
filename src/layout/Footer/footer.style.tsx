@@ -3,7 +3,10 @@ import styled from "styled-components";
 export const FooterAll = styled.div`
     width: 100%;
     display: flex;
-    z-index: -1;
+    z-index: 1;
+    @media screen and (min-width:400px){
+        z-index: 5;
+    }
 `;
 
 export const FooterOut = styled.div`
@@ -18,7 +21,6 @@ export const FooterOut = styled.div`
     margin-top: -10px;
     @media screen and (min-width:550px){
         z-index: 199;
-       
     }
 `;
 export const SocialIconImg = styled.img`
@@ -30,7 +32,7 @@ export const SocialItems = styled.div`
     gap: 24px;
 `;
 export const FooterPart = styled.div`
-    z-index: 1;
+    z-index: 3;
     width: 1440px;
     @media screen and (max-width:1480px){
         width: 95%;

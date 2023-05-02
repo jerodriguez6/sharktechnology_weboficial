@@ -1,9 +1,12 @@
 import styled from "styled-components";
 
 export const SaveAll = styled.div`
-    width: 100vw;
+    width: 100%;
     display: flex;
     z-index: 1;
+    @media screen and (max-width:600px){
+        height: 300px;
+    }
 `;
 export const SaveOut = styled.div`
     z-index: 2;
@@ -12,10 +15,12 @@ export const SaveOut = styled.div`
     background-position: center;
     background-size: 100% 100%;
     padding: 145px 0;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    @media screen and (max-width:600px){
+        height: 90%;
+    }
 `;
 export const SavePart = styled.div`
     z-index: 1;
@@ -24,6 +29,7 @@ export const SavePart = styled.div`
     align-items: center;
 `;
 export const SaveTitle = styled.div`
+    margin-top: -90px;
     font-family: 'Luckiest Guy';
     font-style: normal;
     font-weight: 400;

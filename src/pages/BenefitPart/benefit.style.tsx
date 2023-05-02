@@ -4,12 +4,12 @@ export const ParticlesWrapper = styled.div`
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: 1;
+  z-index: -3;
 `;
 
 export const ContentWrapper = styled.div`
   position: relative;
-  z-index: 2;
+  z-index: -1;
 `;
 
 export const Benefitcontainer = styled.div`
@@ -20,6 +20,7 @@ export const Benefitcontainer = styled.div`
   width: 100%;
   position: relative;
   overflow: hidden;
+  z-index: -1;
 `;
 export const BenefitOut = styled.div`
   
@@ -27,10 +28,11 @@ export const BenefitOut = styled.div`
   background-repeat: no-repeat;
   margin-top: -10px;
   background-size: 100% 100%;
-  width: 100vw;
+  width: 100%;
   display: flex;
   padding: 112px 0;
   justify-content: center;
+  z-index: -1;
 `;
 
 
@@ -57,11 +59,11 @@ export const BenefitTitle = styled.div`
   line-height: 60px;
   letter-spacing: -0.02em;
   color: #ffffff;
-  z-index: 2;
+  z-index: 4;
   position: relative;
   ::after {
     content: url("img/graphic_line.svg");
-    z-index: -1;
+    z-index: 4;
     position: absolute;
     left: 0;
     bottom: -15px;
