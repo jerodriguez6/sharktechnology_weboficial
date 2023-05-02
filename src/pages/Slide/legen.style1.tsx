@@ -6,11 +6,16 @@ export const LegenOu = styled.div`
     width: 100vw;
     display: flex;
     justify-content: center;
+    
 `;
 export const LegenPart = styled.div`
     width: 1440px;
     @media screen and (max-width:1480px){
         width: 95%;
+    }
+    @media screen and (max-width: 400px) {
+            width: 90%;
+            margin-left: 100px;
     }
 `;
 export const LegenTitle = styled.div`
@@ -45,6 +50,10 @@ export const LegenTitle = styled.div`
     @media screen and (max-width:490px){
         font-size: 38px;
     }
+    @media screen and (max-width: 400px) {
+        width: 90%;
+        margin-left: -10px;
+      }
 `;
 export const LegenImg = styled.img`
 `;

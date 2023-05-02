@@ -31,6 +31,10 @@ export const FAQPart = styled.div`
 export const FAQLeft = styled.div`
   width: 100%;
   position: relative;
+  @media screen and (max-width: 400px) {
+    width: 90%;
+    margin-left: 40px;
+  }
 `;
 export const FAQTitle = styled.div`
   font-family: "Luckiest Guy";
