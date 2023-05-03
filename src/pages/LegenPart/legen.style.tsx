@@ -11,6 +11,10 @@ export const LegenPart = styled.div`
     @media screen and (max-width:1480px){
         width: 95%;
     }
+    @media screen and (max-width: 400px) {
+        width: 90%;
+        margin-left: 100px;
+}
 `;
 export const LegenTitle = styled.div`
     font-family: 'Luckiest Guy';
@@ -43,6 +47,10 @@ export const LegenTitle = styled.div`
     @media screen and (max-width:490px){
         font-size: 38px;
     }
+    @media screen and (max-width: 400px) {
+        width: 90%;
+        margin-left: -10px;
+      }
 `;
 export const LegenImg = styled.img`
     

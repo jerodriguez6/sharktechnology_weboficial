@@ -13,6 +13,10 @@ export const TeamPart = styled.div`
   @media screen and (max-width: 1480px) {
     width: 100%;
   }
+  @media screen and (max-width: 400px) {
+    width: 90%;
+    margin-left: 80px;
+  }
 `;
 export const TeamTitle = styled.div`
   margin-left: 40px;
@@ -32,6 +36,10 @@ export const TeamTitle = styled.div`
     position: absolute;
     left: 0;
     bottom: -13px;
+  }
+  @media screen and (max-width: 400px) {
+    width: 90%;
+    margin-left: -10px;
   }
 `;
 export const TeamBody = styled.div`

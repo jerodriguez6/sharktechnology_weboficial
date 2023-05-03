@@ -69,7 +69,6 @@ const MainPage = () => {
                 width='100%'
                 height='100%'
                 controls
-                playing
               />
             </RoadVideoMid>
             <RoadmapTitle>ROADMAP</RoadmapTitle>

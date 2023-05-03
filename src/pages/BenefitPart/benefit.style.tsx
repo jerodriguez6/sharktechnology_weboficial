@@ -47,6 +47,10 @@ export const Benefit = styled.div`
   @media screen and (max-width: 1000px) {
     flex-direction: column;
   }
+  @media screen and (max-width: 400px) {
+    width: 90%;
+    margin-left: 30px;
+  }
 `;
 
 export const BenefitLeft = styled.div``;

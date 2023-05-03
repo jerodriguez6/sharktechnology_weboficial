@@ -11,11 +11,19 @@ export const StoryPartOut = styled.div`
   display: flex;
   width: 100%;
   justify-content: center;
+  @media (max-width: 400px) {
+    background-size: cover;
+  }
 `;
+
 export const StoryPart = styled.div`
   width: 1440px;
   @media screen and (max-width: 1480px) {
     width: 95%;
+  }
+  @media screen and (max-width: 400px) {
+    width: 87%;
+    margin-left: 30px;
   }
 `;
 export const OurStory = styled.div`

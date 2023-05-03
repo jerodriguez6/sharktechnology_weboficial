@@ -268,7 +268,11 @@ export const RoadVideoMid = styled.div`
   margin: auto;
   height: 500px;
   margin-bottom: 100px;
-
+  @media screen and (max-width: 400px) {
+    width: 50%;
+    height: 200px;
+    margin-left: 17px;
+  }
   @media screen and (max-width: 800px) {
     width: 100%;
     height: 500px;
