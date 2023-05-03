@@ -9,11 +9,11 @@ export const FooterAll = styled.div`
     overflow: hidden;
     width: 100%;
     display: flex;
-    z-index: 0;
+    z-index: -3;
 `;
 
 export const FooterOut = styled.div`
-    z-index: 2;
+    z-index: 99999;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -30,9 +30,6 @@ export const FooterOut = styled.div`
     padding: 48px 0 30px 0;
     background-position: center;
     background-size: 100% 100%;
-    @media screen and (min-width:550px){
-        z-index: 199;
-    }
 `;
 export const SocialIconImg = styled.img`
     cursor: pointer;
