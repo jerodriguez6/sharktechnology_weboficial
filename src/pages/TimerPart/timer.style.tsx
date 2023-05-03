@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const TimerPart = styled.div`
-    z-index: -2;
+    z-index: -100;
 `;
 export const TimerTitle = styled.div`
     font-family: 'Luckiest Guy';
