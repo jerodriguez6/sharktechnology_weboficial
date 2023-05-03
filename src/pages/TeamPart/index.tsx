@@ -79,7 +79,7 @@ const TeamContainer = () => {
             </TeamItem>
             <TeamItem key={6}>
               <TeamImg src="img/KEN.png" alt="" />
-              <TeamItemName>RENE</TeamItemName>
+              <TeamItemName>RENE ANTONILEZ</TeamItemName>
               <TeamItemText><h2>Legal Address</h2></TeamItemText>
               <TeamItemText>Experienced and innovative lawyer. With a proven track record in achieving favorable results for clients. A strong leader who understands the complexities of the legal system and the world of blockchain technology.
               </TeamItemText>
