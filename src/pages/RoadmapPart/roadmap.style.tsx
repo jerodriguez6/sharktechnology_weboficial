@@ -271,7 +271,7 @@ export const RoadVideoMid = styled.div`
   @media screen and (max-width: 400px) {
     width: 50%;
     height: 200px;
-    margin-left: 17px;
+    margin-left: 15px;
   }
   @media screen and (max-width: 800px) {
     width: 100%;
