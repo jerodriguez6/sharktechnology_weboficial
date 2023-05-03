@@ -15,7 +15,7 @@ export const LegenPart = styled.div`
     }
     @media screen and (max-width: 400px) {
             width: 90%;
-            margin-left: 75px;
+            margin-left: 69px;
     }
 `;
 export const LegenTitle = styled.div`
