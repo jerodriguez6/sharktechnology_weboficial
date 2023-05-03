@@ -80,7 +80,7 @@ export const MountainImg = styled.img<ImgProps>`
     @media screen and (max-width:850px){
         display: none;
     }
-    @media screen and (max-width:1366px){
+    @media screen and (min-width:1366px){
         display: none;
     }
 `;
@@ -104,6 +104,12 @@ export const CloudImg = styled.img`
     /*transition: all 1s;*/
     @media screen and (max-width:850px){
         display: none;
+    }
+
+    @media screen and (max-width:450px){
+        display: none;
+        margin-buttom: 200px;
+        margin-right: 130px;
     }
 `;
 
