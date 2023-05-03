@@ -39,7 +39,7 @@ export const TeamTitle = styled.div`
   }
   @media screen and (max-width: 400px) {
     width: 90%;
-    margin-left: -10px;
+    margin-left: -21px;
   }
 `;
 export const TeamBody = styled.div`

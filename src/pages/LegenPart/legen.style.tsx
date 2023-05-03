@@ -13,7 +13,7 @@ export const LegenPart = styled.div`
     }
     @media screen and (max-width: 400px) {
         width: 90%;
-        margin-left: 100px;
+        margin-left: 75px;
 }
 `;
 export const LegenTitle = styled.div`
@@ -49,7 +49,7 @@ export const LegenTitle = styled.div`
     }
     @media screen and (max-width: 400px) {
         width: 90%;
-        margin-left: -10px;
+        margin-left: -17px;
       }
 `;
 export const LegenImg = styled.img`
