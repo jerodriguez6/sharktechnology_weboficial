@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const TeamOut = styled.div`
   z-index: 1;
-  width: 100vw;
+  width: 100%;
   padding-top: 10px;
   display: flex;
   justify-content: center;
@@ -14,8 +14,7 @@ export const TeamPart = styled.div`
     width: 100%;
   }
   @media screen and (max-width: 400px) {
-    width: 90%;
-    margin-left: 72px;
+    width: 100%;
   }
 `;
 export const TeamTitle = styled.div`
@@ -37,10 +36,10 @@ export const TeamTitle = styled.div`
     left: 0;
     bottom: -13px;
   }
-  @media screen and (max-width: 400px) {
+  /*@media screen and (max-width: 400px) {
     width: 90%;
-    margin-left: -28px;
-  }
+    //margin-left: -28px;
+  }*/
 `;
 export const TeamBody = styled.div`
   display: flex;

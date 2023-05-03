@@ -5,6 +5,10 @@ export const TitlePartOut = styled.div`
   display: flex;
   z-index: 9;
   justify-content: flex-end;
+  @media screen and (max-width: 400px) {
+    width: 95%;
+    margin-left: 20px;
+  }
 `;
 export const TitlePart = styled.div`
   width: calc(1440px + (100% - 1440px) / 2);
