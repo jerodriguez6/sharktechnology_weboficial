@@ -4,7 +4,7 @@ interface ImgProps {
     transform: number
 }
 export const ContainerPart = styled.div`
-    width: 100%;
+    width: 100%;    
     overflow-x: hidden;
 `;
 export const BunniPart = styled.div`
@@ -21,21 +21,17 @@ export const BunniPart = styled.div`
     z-index: 100;
     @media screen and (max-width:850px){
         background: url('img/marea.png');
-        z-index: 100;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
     @media screen and (max-width: 600px) {
-        z-index: 100;
-        // Aquí puedes agregar tus estilos para max-width: 600px
         background: url('img/marea.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
       }
     @media screen and (max-width: 470px) {
-        z-index: 100;
         background: url('img/marea.png');
         background-repeat: no-repeat;
         background-position: center;
@@ -105,6 +101,7 @@ export const CloudImg = styled.img`
     @media screen and (max-width:850px){
         display: none;
     }
+
     @media screen and (max-width:450px){
         display: none;
         margin-buttom: 200px;
