@@ -151,7 +151,18 @@ export const TRight = styled.img`
     margin-top: 50px;
   }
   @media screen and (max-width: 800px) {
+    z-index: 2;
     width: 350px;
+  }
+  @media screen and (max-width: 700px) {
+    z-index: 2;
+    width: 350px;
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 400px) {
+    z-index: 2;
+    width: 350px;
+    margin: 0 auto;
   }
 `;
 export const SaveBunniBtnLeft = styled.div`

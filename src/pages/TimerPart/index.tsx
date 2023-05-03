@@ -40,23 +40,23 @@ const TimerContainer = () => {
   return (
     <>
       <TimerPart>
-        <TimerTitle>CounTDoWn To MINTInG</TimerTitle>
+        <TimerTitle>.</TimerTitle>
         <TimeBody>
           <TimeItem>
             <TimeNum>{timerComponents[0]}</TimeNum>
-            <TimeUnit>Days</TimeUnit>
+            <TimeUnit>.</TimeUnit>
           </TimeItem>
           <TimeItem>
             <TimeNum>{timerComponents[1]}</TimeNum>
-            <TimeUnit>Hours</TimeUnit>
+            <TimeUnit>.</TimeUnit>
           </TimeItem>
           <TimeItem>
             <TimeNum>{timerComponents[2]}</TimeNum>
-            <TimeUnit>Minutes</TimeUnit>
+            <TimeUnit>.</TimeUnit>
           </TimeItem>
           <TimeItem>
             <TimeNum>{timerComponents[3]}</TimeNum>
-            <TimeUnit>Seconds</TimeUnit>
+            <TimeUnit>.</TimeUnit>
           </TimeItem>
         </TimeBody>
       </TimerPart>

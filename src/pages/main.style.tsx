@@ -27,14 +27,16 @@ export const BunniPart = styled.div`
         background-size: cover;
     }
     @media screen and (max-width: 600px) {
+        z-index: 100;
         // Aquí puedes agregar tus estilos para max-width: 600px
-        background: url('img/small-marea.png');
+        background: url('img/marea.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
       }
     @media screen and (max-width: 470px) {
-        background: url('img/xs-marea.png');
+        z-index: 100;
+        background: url('img/marea.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -52,16 +54,15 @@ export const FloatingWhatsApp = styled.div`
         background-size: cover;
     }
     @media screen and (max-width: 600px) {
-        // Estilos para max-width: 600px
         margin-left: 150px;
-        background: url('img/small-marea.png');
+        background: url('img/marea.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
       }
     @media screen and (max-width: 470px) {
         margin-left: 100px;
-        background: url('img/xs-marea.png');
+        background: url('img/marea.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -71,13 +72,15 @@ export const FloatingWhatsApp = styled.div`
 export const MountainImg = styled.img<ImgProps>`
     position: absolute;
     left: 0;
-    /* height: 500px; */
+    /* height: 350px; */
+    object-fit: cover;
+    /* transition: all 1.2s; */
     width: 100%;
     bottom: -200px;
-    z-index: -1;
-    transform: ${(props: ImgProps) => `translate3d(0px, ${props.transform}px, 0px)`};
-    /* transition: all .1s; */
     @media screen and (max-width:850px){
+        display: none;
+    }
+    @media screen and (max-width:1366px){
         display: none;
     }
 `;
@@ -91,7 +94,7 @@ export const GrassImg = styled.img`
     width: 100%;
     bottom: -200px;
     @media screen and (max-width:850px){
-        display: flex;
+        display: none;
     }
 `;
 
@@ -100,7 +103,7 @@ export const CloudImg = styled.img`
     top: 500px;
     /*transition: all 1s;*/
     @media screen and (max-width:850px){
-        display: flex;
+        display: none;
     }
 `;
 
