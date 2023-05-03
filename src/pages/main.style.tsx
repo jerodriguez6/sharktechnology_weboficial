@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 interface ImgProps {
-    transform: number;
+  transform: number;
 }
 
 export const ContainerPart = styled.div`

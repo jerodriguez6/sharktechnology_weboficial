@@ -9,20 +9,27 @@ export const FooterAll = styled.div`
     overflow: hidden;
     width: 100%;
     display: flex;
-    z-index: -2;
+    z-index: 0;
 `;
 
 export const FooterOut = styled.div`
-    z-index: 5;
+    z-index: 2;
     width: 100%;
     display: flex;
     justify-content: center;
+    /* fallback for old browsers */
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
     //background: url('img/more.jpg');
     background-repeat: no-repeat;
     padding: 48px 0 30px 0;
     background-position: center;
     background-size: 100% 100%;
-    margin-top: -10px;
     @media screen and (min-width:550px){
         z-index: 199;
     }
@@ -36,7 +43,7 @@ export const SocialItems = styled.div`
     gap: 24px;
 `;
 export const FooterPart = styled.div`
-    z-index: 1;
+
     width: 1440px;
     @media screen and (max-width:1480px){
         width: 95%;
@@ -55,7 +62,6 @@ export const FooterTop = styled.div`
     }
 `;
 export const FooterLogoImg = styled.img`
-
 `;
 export const FooterNav = styled.div`
     display: flex;

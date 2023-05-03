@@ -6,6 +6,7 @@ export const TitlePartOut = styled.div`
   z-index: 9;
   justify-content: flex-end;
   @media screen and (max-width: 400px) {
+    z-index: -1
     width: 95%;
     margin-left: 20px;
   }

@@ -5,7 +5,6 @@ export const SaveAll = styled.div`
     display: flex;
     z-index: 1;
     @media screen and (max-width:600px){
-        height: 300px;
     }
     @media (max-width: 400px) {
         margin-left: 20px;

@@ -4,12 +4,12 @@ export const ParticlesWrapper = styled.div`
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: -3;
+  z-index: 0;
 `;
 
 export const ContentWrapper = styled.div`
   position: relative;
-  z-index: -1;
+  z-index: 0;
 `;
 
 export const Benefitcontainer = styled.div`
