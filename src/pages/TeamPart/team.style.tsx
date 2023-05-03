@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const TeamOut = styled.div`
   z-index: 1;
-  width: 100%;
+  width: 95%;
   padding-top: 10px;
   display: flex;
   justify-content: center;
@@ -77,6 +77,7 @@ export const TeamItemName = styled.div`
   color: #000;
 `;
 export const TeamItemText = styled.div`
+  margin-left: -20px; 
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
