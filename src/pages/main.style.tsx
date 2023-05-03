@@ -105,11 +105,9 @@ export const CloudImg = styled.img`
     @media screen and (max-width:850px){
         display: none;
     }
-
     @media screen and (max-width:450px){
         display: none;
         margin-buttom: 200px;
         margin-right: 130px;
     }
 `;
-
