@@ -1,8 +1,21 @@
 import styled from "styled-components";
 
-export const TeamOut = styled.div`
+export const TeamContenedo = styled.div`
+  background: #fff
   z-index: 1;
-  width: 95%;
+  width: 100%;
+  display: flex;
+  margin-right: 15px;
+  padding-top: 112px;
+  padding-bottom: 50px;
+  justify-content: center;
+  background: #fff;
+`;
+export const TeamOut = styled.div`
+margin-top: 100px;
+  background: #fff
+  z-index: 1;
+  width: 100%;
   padding-top: 10px;
   display: flex;
   justify-content: center;

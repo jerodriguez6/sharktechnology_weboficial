@@ -1,12 +1,24 @@
 import styled from "styled-components";
 
+export const LegenContenedo = styled.div`
+    background: #fff
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 10;
+`;
 export const LegenOut = styled.div`
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 100vw;
     display: flex;
-    margin-top: 150px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     justify-content: center;
 `;
 export const LegenPart = styled.div`
+    z-index: 3;
     width: 1440px;
     @media screen and (max-width:1480px){
         width: 95%;
@@ -53,7 +65,7 @@ export const LegenTitle = styled.div`
       }
 `;
 export const LegenImg = styled.img`
-    
+    z-index: 99;
 `;
 export const LegenItem = styled.div`
     padding: 12px 12px 24px;
