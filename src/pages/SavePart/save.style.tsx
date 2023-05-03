@@ -7,6 +7,9 @@ export const SaveAll = styled.div`
     @media screen and (max-width:600px){
         height: 300px;
     }
+    @media (max-width: 400px) {
+        margin-left: 20px;
+      }
 `;
 export const SaveOut = styled.div`
     z-index: 2;

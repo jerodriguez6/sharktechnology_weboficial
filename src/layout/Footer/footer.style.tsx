@@ -32,7 +32,7 @@ export const SocialItems = styled.div`
     gap: 24px;
 `;
 export const FooterPart = styled.div`
-    z-index: 3;
+    z-index: 1;
     width: 1440px;
     @media screen and (max-width:1480px){
         width: 95%;
@@ -45,6 +45,9 @@ export const FooterTop = styled.div`
     @media screen and (max-width:920px){
         flex-direction: column;
         gap: 30px;
+    }
+    @media screen and (max-width: 400px){
+        margin-left: 40px;
     }
 `;
 export const FooterLogoImg = styled.img`
@@ -84,6 +87,9 @@ export const FooterBottom = styled.div`
     @media screen and (max-width:770px){
         flex-direction: column;
         gap: 10px;
+    }
+    @media screen and (max-width: 400px){
+        margin-left: 40px;
     }
 `;
 export const FBLeft = styled.div`
