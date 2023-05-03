@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const TitlePartOut = styled.div`
-  width: 100vw;
+  width: 100%;
   display: flex;
   z-index: 9;
   justify-content: flex-end;
 `;
 export const TitlePart = styled.div`
-  width: calc(1440px + (100vw - 1440px) / 2);
+  width: calc(1440px + (100% - 1440px) / 2);
   margin-top: 143px;
   display: flex;
   justify-content: space-between;
