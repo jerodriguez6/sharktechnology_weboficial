@@ -77,7 +77,7 @@ export const TeamItemName = styled.div`
   color: #000;
 `;
 export const TeamItemText = styled.div`
-  margin-left: -25px; 
+  margin-left: -22px; 
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
