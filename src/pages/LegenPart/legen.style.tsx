@@ -1,20 +1,18 @@
 import styled from "styled-components";
 
-export const LegenContenedo = styled.div`
-    background: #fff
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    z-index: 10;
+export const LegenContenedor = styled.div`
+z-index: 1;
+width: 100%;
+display: flex;
+margin-right: 15px;
+padding-top: 112px;
+padding-bottom: 50px;
+justify-content: center;
+background: #fff;
 `;
 export const LegenOut = styled.div`
-    background: #ADA996;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 100vw;
     display: flex;
-    padding-top: 80px;
-    padding-bottom: 80px;
     justify-content: center;
 `;
 export const LegenPart = styled.div`
