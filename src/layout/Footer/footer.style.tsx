@@ -9,7 +9,7 @@ export const FooterAll = styled.div`
     overflow: hidden;
     width: 100%;
     display: flex;
-    z-index: 1;
+    z-index: -3;
 `;
 
 export const FooterOut = styled.div`
@@ -48,15 +48,10 @@ export const FooterPart = styled.div`
 `;
 export const FooterTop = styled.div`
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    @media screen and (max-width:920px){
-        flex-direction: column;
-        gap: 30px;
-    }
-    @media screen and (max-width: 400px){
-        margin-left: 40px;
-    }
+    flex-direction: column;
+    gap: 30px;
 `;
 export const FooterLogoImg = styled.img`
 `;

@@ -11,26 +11,6 @@ const FooterContainer = () => {
                 <FooterPart>
                     <FooterTop>
                         <FooterLogoImg src='img/logotibu.svg' alt='' />
-                        <FooterNav>
-                            <a href='#story'>
-                                <FooterItem>ABOUT US</FooterItem>
-                            </a>
-                            <a href='#benefit'>
-                                <FooterItem>PROJECTS</FooterItem>
-                            </a>
-                            <a href='#roadmap'>
-                                <FooterItem>SERVICES</FooterItem>
-                            </a>
-                            <a href='#team'>
-                                <FooterItem>TeAM</FooterItem>
-                            </a>
-                            <a href='#faq'>
-                                <FooterItem>FAQ</FooterItem>
-                            </a>
-                            <Link to="/register">
-                                <FooterItem>NEWS</FooterItem>
-                            </Link>
-                        </FooterNav>
 
                         <SocialItems>
                             <a href='https://twitter.com/SHARKTECHNOLOG2' target={'_blank'}>
