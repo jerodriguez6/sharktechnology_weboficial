@@ -14,34 +14,35 @@ export const LegenOut = styled.div`
     display: flex;
     justify-content: center;
     @media screen and (max-width: 650px) {
-        margin-left: -60px;
+        margin-left: -50px;
 }
 `;
 export const LegenPart = styled.div`
-    width: 100%;
     z-index: 3;
     width: 1440px;
+    @media screen and (max-width:1480px){
+        width: 95%;
+    }
+    @media screen and (max-width: 700px) {
+        width: 90%;
+        margin-left: 10px;
+      }
     @media screen and (max-width: 400px) {
         width: 90%;
-        margin-left: 69px;
+        margin-left: 20px;
 }
 `;
 export const LegenTitle = styled.div`
-    margin-left: 60px;
-    font-family: "Luckiest Guy";
+    font-family: 'Luckiest Guy';
     font-style: normal;
     font-weight: 400;
-    font-size: 100px;
+    font-size: 78px;
     line-height: 80px;
     letter-spacing: -0.02em;
     color: #0d0ae5;
     z-index: 2;
     margin-bottom: 40px;
     position: relative;
-    @media screen and (max-width:490px){
-        width: 100%;
-        font-size: 200px;
-    }
     ::after{
         content: url('img/legenline.svg');
         z-index: -1;
@@ -53,18 +54,23 @@ export const LegenTitle = styled.div`
             overflow: hidden;
         }
         @media screen and (max-width:490px){
-            width: 100%;
+            width: 345px;
         }
     }
     @media screen and (max-width:930px){
-        font-size: 50px;
+        font-size: 60px;
+    }
+    @media screen and (max-width:600px){
+        font-size: 70px;
+        margin-left: 20px;
     }
     @media screen and (max-width:490px){
-        font-size: 38px;
+        font-size: 66px;
+        margin-left: 20px;
     }
     @media screen and (max-width: 400px) {
         width: 90%;
-        margin-left: -17px;
+        margin-left: 10px;
       }
 `;
 export const LegenImg = styled.img`
@@ -75,6 +81,9 @@ export const LegenItem = styled.div`
     background-color: #fff;
     box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.05), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
     border-radius: 30px;
+    @media screen and (max-width: 700px) {
+        width: 90%;
+      }
 `;
 export const LegenName = styled.div`
     font-family: 'Inter';

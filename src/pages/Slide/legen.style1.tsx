@@ -15,9 +15,9 @@ export const LegenPart = styled.div`
         width: 95%;
     }
     @media screen and (max-width: 400px) {
-            width: 90%;
-            margin-left: 69px;
-    }
+        width: 90%;
+        margin-left: 20px;
+}
 `;
 export const LegenTitle = styled.div`
     padding-top: 100px;
@@ -45,15 +45,21 @@ export const LegenTitle = styled.div`
             width: 345px;
         }
     }
-    @media screen and (max-width:930px){
-        font-size: 50px;
+    @media screen and (max-width:700px){
+        font-size: 78px;
+        margin-left: 60px;
+    }
+    @media screen and (max-width:600px){
+        font-size: 70px;
+        margin-left: 30px;
     }
     @media screen and (max-width:490px){
-        font-size: 38px;
+        font-size: 55px;
+        margin-left: 25px;
     }
     @media screen and (max-width: 400px) {
         width: 90%;
-        margin-left: -17px;
+        margin-left: -1px;
       }
 `;
 export const LegenImg = styled.img`

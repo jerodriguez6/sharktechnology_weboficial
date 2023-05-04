@@ -37,6 +37,7 @@ export const RoadmapTitle = styled.div`
   z-index: 1;
   position: relative;
   @media screen and (max-width: 400px) {
+    margin-left -5px;
     font-size: 70px;
   }
   ::after {
@@ -263,12 +264,17 @@ export const RoadSecRightText = styled.div`
 `;
 export const RoadVideoMid = styled.div`
   display: flex;
-  width: 70%;
+  width: 100%;
   margin: auto;
   height: 500px;
   margin-bottom: 50px;
   margin-top: 50px;
-  margin-left: 5px;
+  @media screen and (max-width: 800px) {
+    width: 100%;
+    height: 500px;
+    margin-top: -50px;
+    margin-left: 5px;
+  }
   @media screen and (max-width: 800px) {
     width: 100%;
     height: 500px;

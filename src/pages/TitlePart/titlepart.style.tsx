@@ -8,7 +8,7 @@ export const TitlePartOut = styled.div`
   @media screen and (max-width: 600px) {
     z-index: -1;
     width: 95%;
-    margin-left: 20px;
+    margin-left: 7px;
   }
 `;
 export const TitlePart = styled.div`

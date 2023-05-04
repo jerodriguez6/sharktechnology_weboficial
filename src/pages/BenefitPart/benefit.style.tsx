@@ -8,6 +8,7 @@ export const ParticlesWrapper = styled.div`
 `;
 
 export const ContentWrapper = styled.div`
+
   position: relative;
   z-index: 0;
 `;
@@ -23,7 +24,6 @@ export const Benefitcontainer = styled.div`
   z-index: -1;
 `;
 export const BenefitOut = styled.div`
-  
   <video src="img/demo.mp4" width="350" height="280" controls></video>
   background-repeat: no-repeat;
   margin-top: -10px;
@@ -49,7 +49,7 @@ export const Benefit = styled.div`
   }
   @media screen and (max-width: 400px) {
     width: 90%;
-    margin-left: 30px;
+    margin-left: 20px;
   }
 `;
 

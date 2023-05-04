@@ -23,7 +23,7 @@ export const StoryPart = styled.div`
   }
   @media screen and (max-width: 400px) {
     width: 87%;
-    margin-left: 30px;
+    margin-left: 12px;
   }
 `;
 export const OurStory = styled.div`

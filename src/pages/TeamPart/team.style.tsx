@@ -50,10 +50,10 @@ export const TeamTitle = styled.div`
     left: 0;
     bottom: -13px;
   }
-  /*@media screen and (max-width: 400px) {
+  @media screen and (max-width: 400px) {
     width: 90%;
-    //margin-left: -28px;
-  }*/
+    margin-left: 20px;
+  }
 `;
 export const TeamBody = styled.div`
   display: flex;

@@ -4,11 +4,6 @@ export const SaveAll = styled.div`
     width: 100%;
     display: flex;
     z-index: 1;
-    @media screen and (max-width:600px){
-    }
-    @media (max-width: 400px) {
-        margin-left: 10px;
-      }
 `;
 export const SaveOut = styled.div`
     z-index: 2;
