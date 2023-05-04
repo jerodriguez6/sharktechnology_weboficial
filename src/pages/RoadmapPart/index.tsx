@@ -65,7 +65,7 @@ const MainPage = () => {
           <Roadmap>
             < RoadVideoMid>
               <ReactPlayer
-                url={'https://www.youtube.com/watch?v=pLBuFxMYkx8&ab_channel=BorjaScript'}
+                url={`${process.env.PUBLIC_URL}/videos/METAVERSO.mp4`}
                 width='100%'
                 height='100%'
                 controls
