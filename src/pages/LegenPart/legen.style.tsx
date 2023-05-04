@@ -13,8 +13,8 @@ export const LegenOut = styled.div`
     width: 100vw;
     display: flex;
     justify-content: center;
-    @media screen and (max-width: 400px) {
-        margin-left: -20px;
+    @media screen and (max-width: 650px) {
+        margin-left: -60px;
 }
 `;
 export const LegenPart = styled.div`
@@ -29,6 +29,7 @@ export const LegenPart = styled.div`
 }
 `;
 export const LegenTitle = styled.div`
+    margin-left: 30px;
     font-family: 'Luckiest Guy';
     font-style: normal;
     font-weight: 400;
