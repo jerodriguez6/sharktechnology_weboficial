@@ -9,7 +9,7 @@ export const FooterAll = styled.div`
     overflow: hidden;
     width: 100%;
     display: flex;
-    z-index: -3;
+    z-index: 1;
 `;
 
 export const FooterOut = styled.div`
