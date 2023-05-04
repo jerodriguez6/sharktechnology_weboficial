@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 interface ImgProps {
   transform: number;
@@ -70,10 +70,22 @@ export const GrassImg = styled.img`
   }
 `;
 
+const swim = keyframes`
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+`;
+
 export const CloudImg = styled.img`
   position: absolute;
   top: 500px;
-
+  animation: ${swim} 2s linear infinite;
   @media screen and (max-width: 850px) {
     display: none;
   }
