@@ -18,28 +18,30 @@ export const LegenOut = styled.div`
 }
 `;
 export const LegenPart = styled.div`
+    width: 100%;
     z-index: 3;
     width: 1440px;
-    @media screen and (max-width:1480px){
-        width: 95%;
-    }
     @media screen and (max-width: 400px) {
         width: 90%;
         margin-left: 69px;
 }
 `;
 export const LegenTitle = styled.div`
-    margin-left: 30px;
-    font-family: 'Luckiest Guy';
+    margin-left: 60px;
+    font-family: "Luckiest Guy";
     font-style: normal;
     font-weight: 400;
-    font-size: 78px;
+    font-size: 100px;
     line-height: 80px;
     letter-spacing: -0.02em;
     color: #0d0ae5;
     z-index: 2;
     margin-bottom: 40px;
     position: relative;
+    @media screen and (max-width:490px){
+        width: 100%;
+        font-size: 200px;
+    }
     ::after{
         content: url('img/legenline.svg');
         z-index: -1;
@@ -51,7 +53,7 @@ export const LegenTitle = styled.div`
             overflow: hidden;
         }
         @media screen and (max-width:490px){
-            width: 345px;
+            width: 100%;
         }
     }
     @media screen and (max-width:930px){

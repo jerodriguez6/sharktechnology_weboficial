@@ -21,6 +21,7 @@ margin-top: 100px;
   justify-content: center;
 `;
 export const TeamPart = styled.div`
+  margin-left: -20px;
   z-index: 1;
   width: 1440px;
   @media screen and (max-width: 1480px) {
@@ -31,7 +32,7 @@ export const TeamPart = styled.div`
   }
 `;
 export const TeamTitle = styled.div`
-  margin-left: 40px;
+  margin-left: 30px;
   font-family: "Luckiest Guy";
   font-style: normal;
   font-weight: 400;
@@ -58,6 +59,7 @@ export const TeamBody = styled.div`
   display: flex;
   gap: 48px;
   margin: 20px;
+  margin-left: 50px;
   @media screen and (max-width: 1010px) {
     flex-wrap: wrap;
     justify-content: center;

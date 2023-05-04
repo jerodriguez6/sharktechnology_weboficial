@@ -33,7 +33,7 @@ export const FAQLeft = styled.div`
   position: relative;
   @media screen and (max-width: 400px) {
     width: 90%;
-    margin-left: 33px;
+    margin-left: 20px;
   }
 `;
 export const FAQTitle = styled.div`

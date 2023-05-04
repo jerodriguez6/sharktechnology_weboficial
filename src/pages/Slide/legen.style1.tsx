@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const LegenOu = styled.div`
+    margin-left: -20px;
     z-index: 1;
     background: #FBF8F1;
     width: 100vw;

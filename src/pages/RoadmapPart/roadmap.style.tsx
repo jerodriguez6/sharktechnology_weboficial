@@ -4,7 +4,6 @@ export const RoadMapContenedor = styled.div`
   z-index: 1;
   width: 100%;
   display: flex;
-  margin-right: 15px;
   padding-top: 20px;
   padding-bottom: 50px;
   justify-content: center;
@@ -14,13 +13,11 @@ export const RoadMapOut = styled.div`
   z-index: 1;
   width: 100%;
   display: flex;
-  margin-right: 15px;
   padding-top: 112px;
   justify-content: center;
   background: #fff;
 `;
 export const Roadmap = styled.div`
-  margin-left: 20px;
   width: 90%;
   @media screen and (max-width: 1533px) {
     width: 90%;
@@ -30,7 +27,6 @@ export const Roadmap = styled.div`
   }
 `;
 export const RoadmapTitle = styled.div`
-  margin-left: 18px;
   font-family: "Luckiest Guy";
   font-style: normal;
   font-weight: 400;
@@ -40,6 +36,9 @@ export const RoadmapTitle = styled.div`
   color: #0d0ae5;
   z-index: 1;
   position: relative;
+  @media screen and (max-width: 400px) {
+    font-size: 70px;
+  }
   ::after {
     content: url("img/roadmapline.svg");
     position: absolute;
@@ -269,6 +268,7 @@ export const RoadVideoMid = styled.div`
   height: 500px;
   margin-bottom: 50px;
   margin-top: 50px;
+  margin-left: 5px;
   @media screen and (max-width: 800px) {
     width: 100%;
     height: 500px;
