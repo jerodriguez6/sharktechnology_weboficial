@@ -54,7 +54,7 @@ export const LegenTitle = styled.div`
         margin-left: 30px;
     }
     @media screen and (max-width:490px){
-        font-size: 55px;
+        font-size: 52px;
         margin-left: 25px;
     }
     @media screen and (max-width: 400px) {
@@ -65,6 +65,7 @@ export const LegenTitle = styled.div`
 export const LegenImg = styled.img`
 `;
 export const LegenItem = styled.div`
+    margin-top: -40px;
     padding: 12px 12px 24px;
     background-color: #FBF8F1;
     box-shadow: 12 px 12px 12px 16px -4px rgba(16, 24, 40, 0.05), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);

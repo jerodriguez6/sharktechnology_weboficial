@@ -37,8 +37,8 @@ export const RoadmapTitle = styled.div`
   z-index: 1;
   position: relative;
   @media screen and (max-width: 400px) {
-    margin-left -5px;
-    font-size: 70px;
+    margin-left -12px;
+    font-size: 68px;
   }
   ::after {
     content: url("img/roadmapline.svg");
