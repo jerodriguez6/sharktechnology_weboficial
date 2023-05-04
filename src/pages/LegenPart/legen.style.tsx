@@ -4,7 +4,6 @@ export const LegenContenedor = styled.div`
 z-index: 1;
 width: 100%;
 display: flex;
-margin-right: 15px;
 padding-top: 112px;
 padding-bottom: 50px;
 justify-content: center;
@@ -14,6 +13,9 @@ export const LegenOut = styled.div`
     width: 100vw;
     display: flex;
     justify-content: center;
+    @media screen and (max-width: 400px) {
+        margin-left: -20px;
+}
 `;
 export const LegenPart = styled.div`
     z-index: 3;
