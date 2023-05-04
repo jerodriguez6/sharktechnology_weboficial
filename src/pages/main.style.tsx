@@ -75,7 +75,7 @@ const swim = keyframes`
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateY(-25px);
   }
   100% {
     transform: translateY(0);
@@ -85,7 +85,7 @@ const swim = keyframes`
 export const CloudImg = styled.img`
   position: absolute;
   top: 500px;
-  animation: ${swim} 2s linear infinite;
+  animation: ${swim} 4s linear infinite;
   @media screen and (max-width: 850px) {
     display: none;
   }
