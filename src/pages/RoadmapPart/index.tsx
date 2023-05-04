@@ -63,12 +63,14 @@ const MainPage = () => {
       <RoadMapContenedor>
         <RoadMapOut id="roadmap">
           <Roadmap>
-            < RoadVideoMid>
+            <RoadmapTitle>METAVERSO</RoadmapTitle>
+            < RoadVideoMid mt="40px">
               <ReactPlayer
                 url={`${process.env.PUBLIC_URL}/videos/METAVERSO.mp4`}
                 width='100%'
                 height='100%'
                 controls
+                play
               />
             </RoadVideoMid>
             <RoadmapTitle>ROADMAP</RoadmapTitle>

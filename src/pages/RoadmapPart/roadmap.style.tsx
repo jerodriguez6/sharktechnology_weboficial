@@ -5,7 +5,7 @@ export const RoadMapContenedor = styled.div`
   width: 100%;
   display: flex;
   margin-right: 15px;
-  padding-top: 112px;
+  padding-top: 20px;
   padding-bottom: 50px;
   justify-content: center;
   background: #fff;
@@ -30,7 +30,7 @@ export const Roadmap = styled.div`
   }
 `;
 export const RoadmapTitle = styled.div`
-  margin-left: 30px;
+  margin-left: 18px;
   font-family: "Luckiest Guy";
   font-style: normal;
   font-weight: 400;
@@ -267,29 +267,29 @@ export const RoadVideoMid = styled.div`
   width: 70%;
   margin: auto;
   height: 500px;
-  margin-bottom: 100px;
-  @media screen and (max-width: 400px) {
-    width: 50%;
-    height: 200px;
-    margin-left: 15px;
-  }
+  margin-bottom: 50px;
+  margin-top: 50px;
   @media screen and (max-width: 800px) {
     width: 100%;
     height: 500px;
+    margin-top: -50px;
   }
-  @media screen and (min-width: 801px) {
+  @media screen and (min-width: 1000px) {
     width: 80%;
     height: 500px;
+    margin-top: 50px;
   }
   @media screen and (min-width: 1500px) {
     width: 100%;
     height: 800px;
+    margin-top: 50px;
   }
 
   @media screen and (min-width: 1920px) {
     margin: auto;
     width: 100%;
     height: 800px;
+    margin-top: 50px;
   }
 `;
 
