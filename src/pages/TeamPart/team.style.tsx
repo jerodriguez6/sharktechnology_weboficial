@@ -57,25 +57,28 @@ export const TeamTitle = styled.div`
 `;
 export const TeamBody = styled.div`
   display: flex;
-  gap: 48px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   margin: 20px;
   margin-left: 50px;
   @media screen and (max-width: 1010px) {
-    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
   }
   @media screen and (max-width: 1366px) {
-    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+  }
 `;
 export const TeamItem = styled.div`
+  width: 250px;
+  margin: 0 15px;
   @media screen and (max-width: 1010px) {
-    width: 294px;
+    margin: 0 15px 30px 15px;
   }
   @media screen and (max-width: 1366px) {
-    width: 250px;
+    margin: 0 15px 30px 15px;
+  }
 `;
 export const TeamImg = styled.img`
    width: 250px;
