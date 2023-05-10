@@ -49,12 +49,12 @@ export const MountainImg = styled.img<ImgProps>`
   width: 100%;
   bottom: -200px;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1000px) {
     display: none;
-  }
+  } 
 
   @media screen and (min-width: 1366px) {
-    display: none;
+    display: block;
   }
 `;
 
