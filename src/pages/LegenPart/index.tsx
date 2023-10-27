@@ -79,46 +79,95 @@ const LengeContainer = () => {
             >
               <SwiperSlide>
                 <LegenItem>
+                  <LegenImg src="img/ceti.png" alt="" />
+                  <LegenName>CETIFARMA</LegenName>
+                </LegenItem>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <LegenItem>
+                  <LegenImg src="img/coffee.png" alt="" />
+                  <LegenName>COFFEE BEANSWAP</LegenName>
+                </LegenItem>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <LegenItem>
+                  <LegenImg src="img/ori.jpg" alt="" />
+                  <LegenName>ORIGEN</LegenName>
+                </LegenItem>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <LegenItem>
+                  <LegenImg src="img/mytokenpay.png" alt="" />
+                  <LegenName>MYTOKENPAY</LegenName>
+                </LegenItem>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <LegenItem>
+                  <LegenImg src="img/ondk.png" alt="" />
+                  <LegenName>ORDEN KAPITAL</LegenName>
+                </LegenItem>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <LegenItem>
+                  <LegenImg src="img/ROJOP.jpeg" alt="" />
+                  <LegenName>ROJO PASION NFT</LegenName>
+                </LegenItem>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <LegenItem>
                   <LegenImg src="img/blumer.jfif" alt="" />
                   <LegenName>BLUMER</LegenName>
                 </LegenItem>
               </SwiperSlide>
+
               <SwiperSlide>
                 <LegenItem>
                   <LegenImg src="img/icon_hb.jpeg" alt="" />
                   <LegenName>FARMVERSE</LegenName>
                 </LegenItem>
               </SwiperSlide>
+
               <SwiperSlide>
                 <LegenItem>
                   <LegenImg src="img/galaxy.png" alt="" />
                   <LegenName>ERIS GALAXY</LegenName>
                 </LegenItem>
               </SwiperSlide>
+
               <SwiperSlide>
                 <LegenItem>
                   <LegenImg src="img/CANA.jpg" alt="" />
                   <LegenName>CANNABISCOIN</LegenName>
                 </LegenItem>
               </SwiperSlide>
+
               <SwiperSlide>
                 <LegenItem>
                   <LegenImg src="img/grass.jpg" alt="" />
                   <LegenName>GRASS ARENA</LegenName>
                 </LegenItem>
               </SwiperSlide>
+
               <SwiperSlide>
                 <LegenItem>
                   <LegenImg src="img/OBIC.png" alt="" />
                   <LegenName>ORION BLACK</LegenName>
                 </LegenItem>
               </SwiperSlide>
+
               <SwiperSlide>
                 <LegenItem>
                   <video src="img/demo.mp4" width="350" height="280" controls></video>
                   <LegenName>VIDEO GAME</LegenName>
                 </LegenItem>
               </SwiperSlide>
+
             </Swiper>
           </LegenPart>
         </LegenOut>

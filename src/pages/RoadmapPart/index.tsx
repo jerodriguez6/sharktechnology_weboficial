@@ -194,7 +194,7 @@ const MainPage = () => {
                 <RoadSecCard>
                   <RoadSecProImg src="img/tibu.png" alt="" />
                   <RoadSecCardRight>
-                    <RoadSecRightTitle>Q2 – 2023, COMING SOON ⏳</RoadSecRightTitle>
+                    <RoadSecRightTitle>Q2 – 2023 ✔️</RoadSecRightTitle>
                     <BenefitUL>
                       <BenefitLi key={1}>Swap development</BenefitLi>
                       <BenefitLi key={1}>Development of DAPP MINT, NFT UTILITY</BenefitLi>
@@ -206,7 +206,7 @@ const MainPage = () => {
                 <RoadSecCard>
                   <RoadSecProImg src="img/tibu.png" alt="" />
                   <RoadSecCardRight>
-                    <RoadSecRightTitle>Q3 – 2023, COMING SOON ⏳</RoadSecRightTitle>
+                    <RoadSecRightTitle>Q3 – 2023 ✔️</RoadSecRightTitle>
                     <BenefitUL>
                       <BenefitLi key={1}>Development of a blockchain traceability system for airline companies</BenefitLi>
                       <BenefitLi key={1}>Development of a crypto lottery system.</BenefitLi>

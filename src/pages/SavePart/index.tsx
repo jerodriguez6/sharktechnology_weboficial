@@ -11,7 +11,7 @@ const SaveContainer = () => {
         <SaveOut>
           <SavePart>
             <SaveTitle>shark</SaveTitle>
-            <a href='https://discord.gg/Ab433VcrVU' target={'_blank'}>
+            <a href='https://discord.gg/HNQNPY2h' target={'_blank'}>
               <SaveBtn>Join the Community</SaveBtn>
             </a>
           </SavePart>

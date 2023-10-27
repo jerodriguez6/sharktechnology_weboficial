@@ -19,7 +19,7 @@ const SavedContainer: React.FC = () => {
     <>
       <MintPartOut>
         <MintMainOut>
-          <SaveBunnyImg src="img/st.png" alt="" id="bunny" />
+          <SaveBunnyImg src="img/memo.png" alt="" id="bunny" />
           <MintMain>
             <SavedTitle>
               YoU <span>SAVED</span> THIS SHARK!
@@ -30,8 +30,10 @@ const SavedContainer: React.FC = () => {
               dui.
             </SavedText>
             <Btn>
-              <BsDiscord className="discordIcon" /> JoIN THE DISCORD
-            </Btn>
+  <a href="https://discord.gg/nbnJUnjt" target="_blank" rel="noopener noreferrer">
+    <BsDiscord className="discordIcon" /> JOIN THE DISCORD
+  </a>
+</Btn>
           </MintMain>
         </MintMainOut>
       </MintPartOut>
