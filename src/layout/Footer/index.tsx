@@ -10,7 +10,7 @@ const FooterContainer = () => {
             <FooterOut>
                 <FooterPart>
                     <FooterTop>
-                        <FooterLogoImg src='img/logotibu.svg' alt='' />
+                        <FooterLogoImg src='img/blanc.png' alt='' />
 
                         <SocialItems>
                             <a href='https://twitter.com/SHARKTECHNOLOG2' target={'_blank'}>

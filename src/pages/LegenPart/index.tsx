@@ -79,6 +79,27 @@ const LengeContainer = () => {
             >
               <SwiperSlide>
                 <LegenItem>
+                  <LegenImg src="img/OGB.png" alt="" />
+                  <LegenName>ORDEN GLOBLAL BLOCKCHAIN</LegenName>
+                </LegenItem>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <LegenItem>
+                  <LegenImg src="img/dapplinkmeup.png" alt="" />
+                  <LegenName>DAPPLINKMEUP</LegenName>
+                </LegenItem>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <LegenItem>
+                  <LegenImg src="img/veta.png" alt="" />
+                  <LegenName>VETAWALLET</LegenName>
+                </LegenItem>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <LegenItem>
                   <LegenImg src="img/ceti.png" alt="" />
                   <LegenName>CETIFARMA</LegenName>
                 </LegenItem>
@@ -94,7 +115,7 @@ const LengeContainer = () => {
               <SwiperSlide>
                 <LegenItem>
                   <LegenImg src="img/ori.jpg" alt="" />
-                  <LegenName>ORIGEN</LegenName>
+                  <LegenName>ORIGEN DAPP</LegenName>
                 </LegenItem>
               </SwiperSlide>
 
@@ -107,7 +128,7 @@ const LengeContainer = () => {
 
               <SwiperSlide>
                 <LegenItem>
-                  <LegenImg src="img/ondk.png" alt="" />
+                  <LegenImg src="img/token.png" alt="" />
                   <LegenName>ORDEN KAPITAL</LegenName>
                 </LegenItem>
               </SwiperSlide>
@@ -122,7 +143,7 @@ const LengeContainer = () => {
               <SwiperSlide>
                 <LegenItem>
                   <LegenImg src="img/blumer.jfif" alt="" />
-                  <LegenName>BLUMER</LegenName>
+                  <LegenName>BLUMER NFT</LegenName>
                 </LegenItem>
               </SwiperSlide>
 
